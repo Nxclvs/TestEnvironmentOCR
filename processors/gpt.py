@@ -75,4 +75,6 @@ def process_pdf(pdf_path):
 if __name__ == "__main__":
     pdf_path = r"testfiles\output_page_1.pdf"
     json_data = process_pdf(pdf_path)
-    print(json_data)
+    with open("output.json", "w") as f:
+        f.write(json.dumps(json_data, indent=4))
+    print("Fertig!")
