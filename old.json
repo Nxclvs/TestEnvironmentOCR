@@ -1,0 +1,52 @@
+[
+    {
+        "Urlaubsantrag": {
+            "Name": "Alles",
+            "Vorname": "Liesch",
+            "Personalnr": "123AB",
+            "Bereich/Fakult\u00e4t": "Telekom",
+            "Gleitzeit": true,
+            "Urlaubsjahr": 2023,
+            "Zusatzurlaub_f_Schwerbeh": 0,
+            "Gesamturlaub": 20,
+            "Antr\u00e4ge": [
+                {
+                    "vom": "02.01.24",
+                    "bis": "03.01.24",
+                    "beantragte_Tage": 2,
+                    "Resttage": 28,
+                    "Antragsteller": "Ich",
+                    "bef\u00fcrwortet": "Ren\u00e9 Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "01.02.24",
+                    "bis": "30.02.24",
+                    "beantragte_Tage": 29,
+                    "Resttage": 5,
+                    "Antragsteller": "Ren\u00e9",
+                    "bef\u00fcrwortet": "Ren\u00e9 Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "05.07.24",
+                    "bis": "16.07.24",
+                    "beantragte_Tage": 5,
+                    "Resttage": 2,
+                    "Antragsteller": "Ren\u00e9",
+                    "bef\u00fcrwortet": "Ren\u00e9 Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "11.11.24",
+                    "bis": "12.12.24",
+                    "beantragte_Tage": 1,
+                    "Resttage": 0,
+                    "Antragsteller": "Ren\u00e9",
+                    "bef\u00fcrwortet": "Ren\u00e9 Zwing",
+                    "genehmigt": true
+                }
+            ]
+        }
+    }
+]
