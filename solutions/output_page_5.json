@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Leekes",
+        "vorname": "Yannik Luca",
+        "personalnr": "012345",
+        "bereich_fakultaet": "Betabots",
+        "gleitzeit": false,
+        "urlaubsjahr": 2027,
+        "zusatzurlaub_f_schwerbeh": 5,
+        "gesamturlaub": 30,
+        "urlaubsantraege": [
+            {
+                "von": "01.01",
+                "bis": "11.01",
+                "beantragte_tage": 10,
+                "rest_tage": 20,
+                "antragsteller": "Y. Leekes",
+                "befuerwortet": "Chef",
+                "genehmigt": "Y. Leekes"
+            },
+            {
+                "von": "01.04",
+                "bis": "04.04",
+                "beantragte_tage": 4,
+                "rest_tage": 16,
+                "antragsteller": "Y. Leekes",
+                "befuerwortet": "Chef",
+                "genehmigt": "Y. Leekes"
+            },
+            {
+                "von": "01.10",
+                "bis": "11.10",
+                "beantragte_tage": 11,
+                "rest_tage": 5,
+                "antragsteller": "Y. Leekes",
+                "befuerwortet": "Chef",
+                "genehmigt": "Y. Leekes"
+            },
+            {
+                "von": "01.12",
+                "bis": "05.12",
+                "beantragte_tage": 5,
+                "rest_tage": 0,
+                "antragsteller": "Y. Leekes",
+                "befuerwortet": "Chef",
+                "genehmigt": "Y. Leekes"
+            }
+        ]
+    }
+]

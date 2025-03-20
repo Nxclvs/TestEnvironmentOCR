@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Hans Dieter",
+        "vorname": "Schmidt",
+        "personalnr": "36897126",
+        "bereich_fakultaet": "Technik",
+        "urlaubsjahr": 2024,
+        "gleitzeit": true,
+        "zusatzurlaub_f_schwerbeh": "Nein",
+        "gesamturlaub": 30,
+        "urlaubsantraege": [
+            {
+                "von": "14.07.2024",
+                "bis": "21.07.2024",
+                "beantragte_tage": 8,
+                "rest_tage": 22,
+                "antragsteller": "H. Schmidt",
+                "befugwortet": "A. Beel",
+                "genehmigt": "D. Mueller"
+            },
+            {
+                "von": "08.08.2024",
+                "bis": "09.08.2024",
+                "beantragte_tage": 1,
+                "rest_tage": 21,
+                "antragsteller": "H. Schmidt",
+                "befugwortet": "A. Beel",
+                "genehmigt": "D. Mueller"
+            },
+            {
+                "von": "02.09.2024",
+                "bis": "10.09.2024",
+                "beantragte_tage": 8,
+                "rest_tage": 13,
+                "antragsteller": "H. Schmidt",
+                "befugwortet": "A. Beel",
+                "genehmigt": "D. Mueller"
+            },
+            {
+                "von": "23.12.2024",
+                "bis": "31.12.2024",
+                "beantragte_tage": 9,
+                "rest_tage": 4,
+                "antragsteller": "H. Schmidt",
+                "befugwortet": "A. Beel",
+                "genehmigt": "D. Mueller"
+            }
+        ]
+    }
+]

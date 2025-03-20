@@ -4,7 +4,7 @@ project_id = "835187183766"
 location = "eu"
 processor_id = "dd0c55be42d8d735"
 
-file_path = r'C:\Users\Niclas Wienzek\Desktop\Niclas\output_page_7.pdf'
+file_path = r'testfiles/output_page_5.pdf'
 mime_type = 'application/pdf'
 
 opts = {
@@ -30,6 +30,8 @@ request = documentai.ProcessRequest(
     name=name, raw_document=raw_document)
 
 result = client.process_document(request)
+with open("outputGOOGLE.json", "w", encoding="utf-8") as f:
+    f.write(str(result))
 
 document = result.document
 

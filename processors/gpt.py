@@ -43,7 +43,7 @@ def extract_text_from_image(image_path):
     response = client.chat.completions.create(
         model="gpt-4o",  
         messages=[
-            {"role": "system", "content": "Extrahiere die relevanten Informationen und gebe sie mir im JSON Format zurück."},
+            {"role": "system", "content": "Extrahiere die relevanten Informationen und gebe sie mir ohne zusätzlichen Text im JSON Format zurück. Verwende für die Beschriftung der Keys nur Kleinbuchstaben und Unterstriche, sowie keine Umlaute. Bei angekreuzten Kontrollkästchen füge diese bitte entsprechend mit zur Auswertung hinzu. Es sollten keine ausgefüllten oder angekreuzten Elemente ausgelassen werden."},
             {
                 "role": "user",
                 "content": [
@@ -66,15 +66,28 @@ def process_pdf(pdf_path):
     extracted_data = []
 
     for image_path in image_paths:
-        print(f"Verarbeite {image_path}")
+        print(f"Verarbeite {image_path} mit GPT-4o")
         extracted_data.append(extract_text_from_image(image_path))
 
     return extracted_data
 
 
-if __name__ == "__main__":
-    pdf_path = r"testfiles\output_page_1.pdf"
+def run_gpt(pdf_path):
+    output_name = "gpt_" + pdf_path.split("\\")[-1].replace(".pdf", ".json")
+    output_name = os.path.join("outputs", output_name)
     json_data = process_pdf(pdf_path)
-    with open("output.json", "w") as f:
-        f.write(json.dumps(json_data, indent=4))
-    print("Fertig!")
+    with open(output_name, "w", encoding="utf-8") as f:
+        f.write(json.dumps(json_data, indent=4, ensure_ascii=False))
+    print("GPT fertig!")
+
+
+
+
+if __name__ == "__main__":
+    pdf_path = r"testfiles\output_page_5.pdf"
+    output_name = "gpt_" + pdf_path.split("\\")[-1].replace(".pdf", ".json")
+    output_name = os.path.join("outputs", output_name)
+    json_data = process_pdf(pdf_path)
+    with open(output_name, "w", encoding="utf-8") as f:
+        f.write(json.dumps(json_data, indent=4, ensure_ascii=False))
+    print("GPT fertig!")

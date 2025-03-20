@@ -1,0 +1,50 @@
+[
+    {
+        "name": "zekiri",
+        "vorname": "john",
+        "personalnr": "011011",
+        "bereich_fakultaet": "dtag",
+        "urlaubsjahr": 2024,
+        "gleitzeit": true,
+        "zusatzurlaub_f_schwerbeh": "Nein",
+        "gesamturlaub": 30,
+        "urlaubsantraege": [
+            {
+                "von": "01.01.2024",
+                "bis": "10.01.2024",
+                "beantragte_tage": 10,
+                "rest_tage": 20,
+                "antragsteller": "zekiri",
+                "befuerwortet": "ja",
+                "genehmigt": "ja"
+            },
+            {
+                "von": "01.02.2024",
+                "bis": "10.02.2024",
+                "beantragte_tage": 10,
+                "rest_tage": 10,
+                "antragsteller": "zekiri",
+                "befuerwortet": "ja",
+                "genehmigt": "nein"
+            },
+            {
+                "von": "16.10.2024",
+                "bis": "21.10.2024",
+                "beantragte_tage": 5,
+                "rest_tage": 5,
+                "antragsteller": "zekiri",
+                "befuerwortet": "ja",
+                "genehmigt": "ja"
+            },
+            {
+                "von": "01.01.2025",
+                "bis": "10.01.2025",
+                "beantragte_tage": 10,
+                "rest_tage": 10,
+                "antragsteller": "zekiri",
+                "befuerwortet": "ja",
+                "genehmigt": "ja"
+            }
+        ]
+    }
+]

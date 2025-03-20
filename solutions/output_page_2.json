@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Schwarz",
+        "vorname": "Dennis",
+        "personalnr": "0187593246",
+        "bereich_fakultaet": "DTAG",
+        "urlaubsjahr": 2025,
+        "gleitzeit": true,
+        "zusatzurlaub_f_schwerbeh": "Nein",
+        "gesamturlaub": 44,
+        "urlaubsantraege": [
+            {
+                "vom": "09.08",
+                "bis": "16.08",
+                "beantragte_tage": 5,
+                "rest_tage": 39,
+                "antragsteller": "Schwarz",
+                "befugworte": "Schwarz",
+                "genehmigt": "Schwarz"
+            },
+            {
+                "vom": "13.12",
+                "bis": "31.12",
+                "beantragte_tage": 15,
+                "rest_tage": 0,
+                "antragsteller": "Schwarz",
+                "befugworte": "Schwarz",
+                "genehmigt": "Schwarz"
+            }
+        ]
+    }
+]

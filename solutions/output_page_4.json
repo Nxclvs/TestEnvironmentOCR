@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Müller",
+        "vorname": "Debora",
+        "personalnr": "0765320",
+        "bereich_fakultaet": "FM",
+        "gleitzeit": true,
+        "urlaubsjahr": 2027,
+        "zusatzurlaub_f_schwerbeh": "nein",
+        "gesamturlaub": "40 Tage",
+        "urlaubsantraege": [
+            {
+                "von": "10.12.2027",
+                "bis": "20.12.2027",
+                "beantragte_tage": 10,
+                "rest_tage": 30,
+                "antragsteller": "Dewi",
+                "befuerwortet": "Kern",
+                "genehmigt": "Mayer"
+            },
+            {
+                "von": "13.11.2027",
+                "bis": "23.11.2027",
+                "beantragte_tage": 10,
+                "rest_tage": 20,
+                "antragsteller": "Buse",
+                "befuerwortet": "BL",
+                "genehmigt": "Auer"
+            },
+            {
+                "von": "01.02.2027",
+                "bis": "13.11.2027",
+                "beantragte_tage": 13,
+                "rest_tage": 7,
+                "antragsteller": "Mos",
+                "befuerwortet": "End Pol",
+                "genehmigt": "X"
+            },
+            {
+                "von": "02.01.2027",
+                "bis": "09.01.2027",
+                "beantragte_tage": 7,
+                "rest_tage": 0,
+                "antragsteller": "Gso",
+                "befuerwortet": "ull",
+                "genehmigt": "Huber"
+            }
+        ]
+    }
+]

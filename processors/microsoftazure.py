@@ -8,6 +8,7 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 from azure.ai.documentintelligence.models import AnalyzeResult
 from azure.ai.documentintelligence.models import AnalyzeDocumentRequest
 from localconfig import config
+import json
 
 endpoint = config.get("microsoftazure").get("endpoint")
 key = config.get("microsoftazure").get("key")
@@ -43,6 +44,8 @@ def analyze_layout():
     )
 
     result: AnalyzeResult = poller.result()
+    # with open("outputAZURE.json", "w", encoding="utf-8") as f:
+    #     f.write(result.to_json())
 
     if result.styles and any([style.is_handwritten for style in result.styles]):
         print("Document contains handwritten content")
