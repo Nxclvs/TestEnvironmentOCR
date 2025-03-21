@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Zekiri",
+        "vorname": "John",
+        "personalnr": "DA1011",
+        "bereich_fakultat": "DTAG",
+        "gleitzeit": true,
+        "urlaubsjahr": 2024,
+        "gesamturlaub": 30,
+        "urlaubsantraege": [
+            {
+                "vom": "01.01.2024",
+                "bis": "10.01.2024",
+                "beantragte_tage": 10,
+                "resttage": 20,
+                "antragsteller": "Zekiri",
+                "befuerwortet": "Jadr",
+                "genehmigt": "Geury"
+            },
+            {
+                "vom": "01.07.2024",
+                "bis": "10.07.2024",
+                "beantragte_tage": 10,
+                "resttage": 10,
+                "antragsteller": "Zekiri",
+                "befuerwortet": "Jadr",
+                "genehmigt": "Geur"
+            },
+            {
+                "vom": "16.10.2024",
+                "bis": "20.10.2024",
+                "beantragte_tage": 5,
+                "resttage": 5,
+                "antragsteller": "Zekiri",
+                "befuerwortet": "Jadr",
+                "genehmigt": "Geur"
+            },
+            {
+                "vom": "01.01.2025",
+                "bis": "10.01.2025",
+                "beantragte_tage": 10,
+                "resttage": 10,
+                "antragsteller": "Zekiri",
+                "befuerwortet": "Jadr",
+                "genehmigt": "Geur"
+            }
+        ]
+    }
+]

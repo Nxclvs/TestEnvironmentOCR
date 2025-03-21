@@ -39,81 +39,10 @@ def analyze_document_textract(image_path):
         FeatureTypes=["TABLES", "FORMS"]
     )
 
-    with open("response.txt", "w") as f:
+    with open("response.json", "w") as f:
         json.dump(response, f, indent=2)
 
-    # Key-Value-Paare extrahieren
-    key_value_pairs = {}
-    for block in response["Blocks"]:
-        if block["BlockType"] == "KEY_VALUE_SET" and "Relationships" in block:
-            key = None
-            value = None
-            for rel in block["Relationships"]:
-                if rel["Type"] == "CHILD":
-                    for child_id in rel["Ids"]:
-                        child_block = next(
-                            (b for b in response["Blocks"] if b["Id"] == child_id),
-                            None
-                        )
-                        if child_block and "Text" in child_block:
-                            if "EntityTypes" in block and "KEY" in block["EntityTypes"]:
-                                key = child_block["Text"]
-                            elif "EntityTypes" in block and "VALUE" in block["EntityTypes"]:
-                                value = child_block["Text"]
-            if key and value:
-                key_value_pairs[key] = value
-
-    # Urlaubsanträge aus Tabellen extrahieren
-    urlaubsantraege = []
-    for block in response["Blocks"]:
-        if block["BlockType"] == "TABLE":
-            table_rows = []
-            for rel in block.get("Relationships", []):
-                if rel["Type"] == "CHILD":
-                    row_data = []
-                    for cell_id in rel["Ids"]:
-                        cell_block = next(
-                            (b for b in response["Blocks"] if b["Id"] == cell_id),
-                            None
-                        )
-                        if cell_block and "Text" in cell_block:
-                            row_data.append(cell_block["Text"])
-                    if row_data:
-                        table_rows.append(row_data)
-
-            # Falls die Tabelle Zeilen enthält, parse sie als Urlaubsanträge
-            if table_rows:
-                for row in table_rows[1:]:  # Erste Zeile oft Header, daher ignorieren
-                    try:
-                        urlaubsantraege.append({
-                            "von": row[0],
-                            "bis": row[1],
-                            "beantragte_Tage": int(row[2]),
-                            "Rest_Tage": int(row[3]),
-                            "Antragsteller": row[4],
-                            "befürwortet": True,  # Textract gibt das nicht direkt an
-                            "genehmigt": True
-                        })
-                    except (IndexError, ValueError):
-                        continue  # Falls ein Fehler in der Zeile ist, überspringe sie
-
-    # JSON im GPT-4o-Format erstellen
-    formatted_json = {
-        "Name": key_value_pairs.get("Name", ""),
-        "Vorname": key_value_pairs.get("Vorname", ""),
-        "Personalnummer": key_value_pairs.get("Personalnr.", ""),
-        "Bereich/Fakultät": key_value_pairs.get("Bereich/Fakultät", ""),
-        "Gleitzeit": key_value_pairs.get("Gleitzeit", "") == "Ja",
-        "Urlaubsjahr": int(key_value_pairs.get("Urlaubsjahr", "0")),
-        "Zusatzurlaub_Schwerbehinderung": int(key_value_pairs.get("Zusatzurlaub f. Schwerbeh.", "0")),
-        "Gesamturlaub": int(key_value_pairs.get("Gesamturlaub", "0")),
-        "Urlaubsanträge": urlaubsantraege,
-        "Hinweis": key_value_pairs.get(
-            "Hinweis", "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
-        )
-    }
-
-    return formatted_json
+    return response
 
 def process_pdf_with_textract(pdf_path):
     image_paths = pdf_to_images(pdf_path)
@@ -135,4 +64,3 @@ def process_pdf_with_textract(pdf_path):
 if __name__ == "__main__":
     pdf_path = r"testfiles\output_page_1.pdf"
     json_data = process_pdf_with_textract(pdf_path)
-    print(json_data)
