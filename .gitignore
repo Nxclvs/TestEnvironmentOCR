@@ -2,5 +2,4 @@ localconfig.py
 testfiles/
 __pycache__/
 temp/ 
-outputs/
 bewertung.txt

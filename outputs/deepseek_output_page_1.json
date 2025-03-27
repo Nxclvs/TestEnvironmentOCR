@@ -1,0 +1,44 @@
+{
+    "Name": "Alles",
+    "Vorname": "Lösch",
+    "Personal Nr": "1234B",
+    "Bereich/Fakultät": "Technikum",
+    "Urlaubsjahr": "2013",
+    "Zusatzurlaub f. Schwerbeh.:": "0",
+    "Gesamturlaub": "20",
+    "Antragsteller(in)": [
+        {
+            "vom": "08.01.24",
+            "bis": "03.01.24",
+            "beantragte Tage": 2,
+            "Rest-Tage": 28,
+            "befürwortet": "René Zwing",
+            "genehmigt": true
+        },
+        {
+            "vom": "01.02.24",
+            "bis": "30.02.24",
+            "beantragte Tage": 19,
+            "Rest-Tage": 5,
+            "befürwortet": "René",
+            "genehmigt": true
+        },
+        {
+            "vom": "05.02.24",
+            "bis": "16.02.24",
+            "beantragte Tage": 5,
+            "Rest-Tage": 2,
+            "befürwortet": "René",
+            "genehmigt": true
+        },
+        {
+            "vom": "12.02.24",
+            "bis": "12.02.24",
+            "beantragte Tage": 1,
+            "Rest-Tage": 0,
+            "befürwortet": "René",
+            "genehmigt": true
+        }
+    ],
+    "Stand": "01/2023"
+}

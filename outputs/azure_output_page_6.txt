@@ -1,0 +1,51 @@
+Stand: 01/2023
+1. URLAUBSANTRAG
+Name:
+Zekiri
+Vorname:
+John
+Personalnr .:
+011011
+Bereich/Fakultät:
+DTAG
+Urlaubsjahr:
+2024
+Zusatzurlaub f. Schwerbeh .:
+Gesamturlaub1):
+30 :selected: Gleitzeit
+vom
+bis
+beantragte Tage
+Rest- Tage
+Antragsteller(in)
+befürwortet
+genehmigt
+01.01.2024
+10.01.2024
+10
+20
+Zekiri
+Jed
+Suy
+01.02.2020
+10.02:20
+10
+10
+Zekiri
+Jak
+Saw
+16.10.2020
+21.10.2026
+5
+5
+Zekiri
+Jak
+Sur
+01.01.2015
+10.01.25
+10
+10
+Zekini
+Low
+Gar
+Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.

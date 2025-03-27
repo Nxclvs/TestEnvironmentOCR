@@ -1,0 +1,43 @@
+{
+    "Name": "Walter",
+    "Vorname": "Debora",
+    "PersonalNr": "0765320",
+    "Bereich/Fakultät": "FNI",
+    "Urlaubshalt": "2027",
+    "ZusatzlaubSchwerbeh": "nein",
+    "Gesamturlauf": "10 Tage",
+    "Antragsteller(in)": [
+        {
+            "vom": "10.12.27",
+            "bis": "20.12.27",
+            "beantragte Tage": 10,
+            "Rest-Tage": 30,
+            "befürwortet": "Nein",
+            "genehmt": "0.410"
+        },
+        {
+            "vom": "13.11.27",
+            "bis": "23.11.27",
+            "beantragte Tage": 10,
+            "Rest-Tage": 20,
+            "befürwortet": "Nein",
+            "genehmt": "0.410"
+        },
+        {
+            "vom": "01.02.27",
+            "bis": "13.11.27",
+            "beantragte Tage": 13,
+            "Rest-Tage": 7,
+            "befürwortet": "Nein",
+            "genehmt": "0.410"
+        },
+        {
+            "vom": "07.01.27",
+            "bis": "09.01.27",
+            "beantragte Tage": 7,
+            "Rest-Tage": 0,
+            "befürwortet": "Nein",
+            "genehmt": "0.410"
+        }
+    ]
+}
