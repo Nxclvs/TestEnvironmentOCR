@@ -1,15 +1,17 @@
 import json
 import re
+import os
 
 def extract_json(output: dict):
     try:
-        raw_result = output.get("result", "")
-        
-        json_match = re.search(r'```json\n(.*?)\n```', raw_result, re.DOTALL)
-        
+
+        json_match = re.search(r'json\s*({.*})', output, re.DOTALL)
+
         if json_match:
             clean_json = json_match.group(1)
-            
+
+            clean_json = re.sub(r'(\d+),(\d+)', r'\1.\2', clean_json)
+
             parsed_json = json.loads(clean_json)
             return parsed_json
         else:
@@ -19,9 +21,15 @@ def extract_json(output: dict):
         print(f"JSON-Dekodierungsfehler: {e}")
         return None
 
-output = {
-    "result": "```json\n{\n \"Name\": \"Sagfurl\",\n \"Vorname\": \"Isa\",\n \"PersonalNr\": \"42093663\",\n \"Bereich/Fakultat\": \"Dann bro\",\n \"Urlaubsjahr\": \"2023\",\n \"Zusatzurlaub & Schwerbeh\": \"0\",\n \"Gesamturlaubt\": \"30\",\n \"Stand\": \"01/2023\",\n \"Antragsteller(in)\": \"J. G. M. L. K.\",\n \"befürwortet\": \"J. G. M. L. K.\",\n \"genehmigt\": \"J. G. M. L. K.\"\n}\n```" 
-}
+if __name__ =="__main__":
+    while True:
+        output = input("Gib den JSON-Block ein: ")
+        page_num = input("Gib die Seitennummer ein: ")
 
-parsed_data = extract_json(output)
-print(json.dumps(parsed_data, indent=4, ensure_ascii=False))
+        output_path = os.path.join("outputs", f"deepseek_output_page_{page_num}.json")
+
+        parsed_data = extract_json(output)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(json.dumps(parsed_data, indent=4, ensure_ascii=False))
+
+        print("Erfolgreich ausgeführt")
