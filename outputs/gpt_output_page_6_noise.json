@@ -3,20 +3,20 @@
         {
             "name": "Zekiri",
             "vorname": "John",
-            "personalnr": "DA1011",
+            "personalnr": "OA1011",
             "bereich_fakultat": "DTAG",
             "gleitzeit": true,
             "urlaubsjahr": 2024,
             "zusatzurlaub_f_schwerbeh": "",
             "gesamturlaub": 30,
-            "urlaubsantrage": [
+            "urlaubsantraege": [
                 {
                     "vom": "01.01.2024",
                     "bis": "10.01.2024",
                     "beantragte_tage": 10,
                     "resttage": 20,
                     "antragsteller": "Zekiri",
-                    "befurwortet": "Jadr",
+                    "befuerwortet": "Jack",
                     "genehmigt": "Geury"
                 },
                 {
@@ -25,7 +25,7 @@
                     "beantragte_tage": 10,
                     "resttage": 10,
                     "antragsteller": "Zekiri",
-                    "befurwortet": "Jadr",
+                    "befuerwortet": "Jack",
                     "genehmigt": "Geur"
                 },
                 {
@@ -34,20 +34,21 @@
                     "beantragte_tage": 5,
                     "resttage": 5,
                     "antragsteller": "Zekiri",
-                    "befurwortet": "Jadr",
+                    "befuerwortet": "Jack",
                     "genehmigt": "Geur"
                 },
                 {
                     "vom": "01.01.2025",
                     "bis": "10.01.2025",
                     "beantragte_tage": 10,
-                    "resttage": 10,
-                    "antragsteller": "Zekiri",
-                    "befurwortet": "Jadr",
+                    "resttage": 0,
+                    "antragsteller": "Zeki.",
+                    "befuerwortet": "Jace",
                     "genehmigt": "Geur"
                 }
-            ]
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
         }
     ],
-    "total_processing_time_sec": 19.090858697891235
+    "total_processing_time_sec": 28.94025206565857
 }

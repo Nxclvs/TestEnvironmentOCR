@@ -1,4 +1,6 @@
 import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import time 
 import openai
 import json
@@ -6,8 +8,8 @@ import pdf2image
 import base64
 from PIL import Image
 from localconfig import config
-from noise_to_image import add_noise_to_image
-
+import modules.helpers
+import modules.constants
 client = openai.OpenAI(api_key=config.get("gpt").get("key"))
 
 def pdf_to_image(pdf_path, output_folder="temp"):
@@ -94,12 +96,12 @@ def run_gpt(pdf_path):
 
 def run_gpt_with_noise(pdf_path):
     """Führt die Verarbeitung mit verrauschten Bildern durch."""
-    image_paths = pdf_to_image(pdf_path)
+    image_paths = [os.path.join(modules.constants.temp_dir, file) for file in os.listdir(modules.constants.temp_dir)]
     extracted_data = []
     total_time = 0 
 
     for image_path in image_paths:
-        noisy_image_path = add_noise_to_image(image_path)
+        noisy_image_path = modules.helpers.add_noise_to_image(image_path)
         result, duration = extract_text_from_image(noisy_image_path)
         extracted_data.append(result)
         total_time += duration  
@@ -107,7 +109,7 @@ def run_gpt_with_noise(pdf_path):
     output_name = "gpt_" + pdf_path.split("\\")[-1].replace(".pdf", "_noise.json")
     output_name = os.path.join("outputs", output_name)
 
-    # Speichere JSON-Ergebnisse + Zeitmessung
+    # Speichere Ergebnisse + Zeitmessung
     result = {
         "data": extracted_data,
         "total_processing_time_sec": total_time  
@@ -122,4 +124,4 @@ def run_gpt_with_noise(pdf_path):
 
 if __name__ == "__main__":
     pdf_path = r"testfiles\output_page_5.pdf"
-    run_gpt(pdf_path)
+    run_gpt_with_noise(pdf_path)

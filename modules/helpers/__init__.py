@@ -1,5 +1,9 @@
 import numpy as np
 from PIL import Image
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname((__file__))))
 
 def add_noise_to_image(path):
     output_path = r'temp\verrauschtes_bild.png'
@@ -20,6 +24,15 @@ def add_noise_to_image(path):
     return output_path
 
 
+def clear_temp_folder():
+    temp_folder = r'temp'
+    for filename in os.listdir(temp_folder):
+        file_path = os.path.join(temp_folder, filename)
+        try:
+            os.remove(file_path)
+            print("temp folder cleared")
+        except Exception as e:
+            print(f'Error deleting {file_path}: {e}')
+
 if __name__ == "__main__":
     pass
-

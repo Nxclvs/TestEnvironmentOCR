@@ -93,7 +93,7 @@ def analyze_document_textract(image_path):
 def process_pdf_with_textract(pdf_path):
     image_paths = pdf_to_images(pdf_path)
     all_lines = []
-    total_time = 0  # ⏱ Gesamtdauer
+    total_time = 0  
 
     for image_path in image_paths:
         print(f"Processing {image_path} with Textract")
