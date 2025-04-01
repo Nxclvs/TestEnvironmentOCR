@@ -30,9 +30,10 @@ def clear_temp_folder():
         file_path = os.path.join(temp_folder, filename)
         try:
             os.remove(file_path)
-            print("temp folder cleared")
         except Exception as e:
             print(f'Error deleting {file_path}: {e}')
+
+    print("temp folder cleared")
 
 if __name__ == "__main__":
     pass

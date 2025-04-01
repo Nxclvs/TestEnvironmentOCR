@@ -4,6 +4,8 @@ import json
 import base64
 import time
 import pdf2image
+import modules.constants
+import modules.helpers
 from mistralai import Mistral
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from localconfig import config
@@ -102,6 +104,32 @@ def run_pixtral(path):
 
     with open(output_name, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=4, ensure_ascii=False)
+
+    print(f"Pixtral-Large fertig! Gesamtzeit: {total_time:.2f} Sekunden")
+
+def run_pixtral_with_noise(path):
+    output_name = "pixtral_" + path.split("\\")[-1].replace(".pdf", "_noise.json")
+    output_name = os.path.join("outputs", output_name)
+
+    image_paths = [os.path.join(modules.constants.temp_dir, file) for file in os.listdir(modules.constants.temp_dir)]
+    extracted_data = []
+    total_time = 0
+    for image_path in image_paths:
+        noisy_image_path = modules.helpers.add_noise_to_image(image_path)
+        encoded_image = encode_image(noisy_image_path)
+        result, duration = process_request(encoded_image)
+
+        if result:
+            extracted_data.append(result)
+            total_time += duration
+    
+    end_result = {
+        "data": extracted_data,
+        "total_processing_time_sec": total_time
+    }
+
+    with open(output_name, "w", encoding="utf-8") as f:
+        json.dump(end_result, f, indent=4, ensure_ascii=False)
 
     print(f"Pixtral-Large fertig! Gesamtzeit: {total_time:.2f} Sekunden")
 

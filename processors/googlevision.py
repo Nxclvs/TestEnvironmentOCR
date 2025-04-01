@@ -15,7 +15,7 @@ LOCATION = config.get("googlevision").get("location")
 PROCESSOR_ID = config.get("googlevision").get("processor_id")
 MIME_TYPE = "application/pdf"
 
-def online_process(project_id: str, location: str, processor_id: str, file_path: str, mime_type: str) -> tuple:
+def online_process(project_id: PROJECT_ID, location: LOCATION, processor_id: PROCESSOR_ID, file_path: str, mime_type: MIME_TYPE) -> tuple:
     """Sendet ein Dokument an die Google Document AI API und misst die Laufzeit."""
 
     opts = {"api_endpoint": f"{location}-documentai.googleapis.com"}
@@ -101,6 +101,13 @@ def extract_tables(project_id: str, location: str, processor_id: str, file_path:
 
     print(f"Google Vision fertig! Gesamtzeit: {total_duration:.2f} Sekunden")
     return extracted_data
+
+def run_google_vision(file_path):
+    output_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", ".json")
+    output_name = os.path.join("outputs", output_name)
+    
+
+
 
 if __name__ == "__main__":
     FILE_PATH = r'testfiles\output_page_1.pdf'

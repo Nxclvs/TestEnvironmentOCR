@@ -65,7 +65,6 @@ def extract_text_from_image(image_path):
     return json.loads(extracted_data), duration  
 
 def process_pdf(pdf_path):
-    """Verarbeitet eine PDF-Datei und misst die gesamte Verarbeitungszeit."""
     image_paths = pdf_to_image(pdf_path)
     extracted_data = []
     total_time = 0 
@@ -95,7 +94,6 @@ def run_gpt(pdf_path):
     print(f"GPT fertig - Gesamtzeit: {total_time:.2f} Sekunden")
 
 def run_gpt_with_noise(pdf_path):
-    """Führt die Verarbeitung mit verrauschten Bildern durch."""
     image_paths = [os.path.join(modules.constants.temp_dir, file) for file in os.listdir(modules.constants.temp_dir)]
     extracted_data = []
     total_time = 0 

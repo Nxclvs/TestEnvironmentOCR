@@ -1,5 +1,5 @@
 from processors.gpt import run_gpt, run_gpt_with_noise
-from processors.pixtral import run_pixtral      
+from processors.pixtral import run_pixtral, run_pixtral_with_noise
 import modules.helpers
 
 paths = [
@@ -7,6 +7,6 @@ paths = [
 ]
 
 for path in paths:
-    run_gpt(path)
-    run_gpt_with_noise(path)
+    run_pixtral(path)
+    run_pixtral_with_noise(path)
     modules.helpers.clear_temp_folder()
