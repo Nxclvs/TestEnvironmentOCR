@@ -1,5 +1,6 @@
 localconfig.py
 testfiles/
 __pycache__/
-temp/ 
+temp/* 
+!temp/.gitkeep
 bewertung.txt
