@@ -5,17 +5,21 @@ import time
 import pandas as pd
 from google.cloud import documentai
 from typing import Sequence, List
-
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from localconfig import config
 
-# Google Vision API Konfiguration
+import modules.constants 
+import modules.helpers
+
+if os.path.exists(modules.constants.vision_ext_credentials):
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = modules.constants.vision_ext_credentials
+
 PROJECT_ID = config.get("googlevision").get("project_id")
 LOCATION = config.get("googlevision").get("location")
 PROCESSOR_ID = config.get("googlevision").get("processor_id")
 MIME_TYPE = "application/pdf"
 
-def online_process(project_id: PROJECT_ID, location: LOCATION, processor_id: PROCESSOR_ID, file_path: str, mime_type: MIME_TYPE) -> tuple:
+def online_process(project_id=PROJECT_ID, location=LOCATION, processor_id=PROCESSOR_ID, file_path=None, mime_type=MIME_TYPE):
     """Sendet ein Dokument an die Google Document AI API und misst die Laufzeit."""
 
     opts = {"api_endpoint": f"{location}-documentai.googleapis.com"}
@@ -96,19 +100,21 @@ def extract_tables(project_id: str, location: str, processor_id: str, file_path:
     extracted_data["total_processing_time_sec"] = total_duration  
 
     # Speichern der Ergebnisse als JSON
-    with open(output_name, "w", encoding="utf-8") as f:
-        json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+    # with open(output_name, "w", encoding="utf-8") as f:
+    #     json.dump(extracted_data, f, indent=4, ensure_ascii=False)
 
     print(f"Google Vision fertig! Gesamtzeit: {total_duration:.2f} Sekunden")
-    return extracted_data
+    return extracted_data, output_name
 
 def run_google_vision(file_path):
-    output_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", ".json")
-    output_name = os.path.join("outputs", output_name)
-    
+    output1_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", ".json")
+    output1_name = os.path.join("outputs", output_name)
 
 
 
 if __name__ == "__main__":
-    FILE_PATH = r'testfiles\output_page_1.pdf'
-    extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, FILE_PATH, MIME_TYPE)
+    FILE_PATH = r'testfiles\output_page_6.pdf'
+    data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, FILE_PATH, MIME_TYPE)
+
+    with open(output_name, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
