@@ -10,3 +10,4 @@ for path in paths:
     run_pixtral(path)
     run_pixtral_with_noise(path)
     modules.helpers.clear_temp_folder()
+    modules.helpers.sort_outputs()

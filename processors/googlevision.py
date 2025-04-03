@@ -107,8 +107,7 @@ def extract_tables(project_id: str, location: str, processor_id: str, file_path:
     return extracted_data, output_name
 
 def run_google_vision(file_path):
-    output1_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", ".json")
-    output1_name = os.path.join("outputs", output_name)
+    data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, file_path, MIME_TYPE)
 
 
 

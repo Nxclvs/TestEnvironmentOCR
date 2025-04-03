@@ -2,8 +2,11 @@ import numpy as np
 from PIL import Image
 import os
 import sys
+import shutil
 
 sys.path.append(os.path.dirname(os.path.dirname((__file__))))
+
+import constants
 
 def add_noise_to_image(path):
     output_path = r'temp\verrauschtes_bild.png'
@@ -25,9 +28,8 @@ def add_noise_to_image(path):
 
 
 def clear_temp_folder():
-    temp_folder = r'temp'
-    for filename in os.listdir(temp_folder):
-        file_path = os.path.join(temp_folder, filename)
+    for filename in os.listdir(constants.temp_dir):
+        file_path = os.path.join(constants.temp_dir, filename)
         try:
             os.remove(file_path)
         except Exception as e:
@@ -35,5 +37,17 @@ def clear_temp_folder():
 
     print("temp folder cleared")
 
+def sort_outputs():
+    for model in constants.model_list:
+        if not os.path.exists(os.path.join(constants.output_dir, model)):
+            os.makedirs(os.path.join(constants.output_dir, model))
+    
+    for file in os.listdir(constants.output_dir):
+        if os.path.isfile(os.path.join(constants.output_dir, file)):
+            for model in constants.model_list:
+                if model in file:
+                    shutil.move(os.path.join(constants.output_dir, file), os.path.join(constants.output_dir, model, file))
+
 if __name__ == "__main__":
-    pass
+    sort_outputs()
+    
