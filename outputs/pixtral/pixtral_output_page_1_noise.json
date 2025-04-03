@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "name": "Alles",
+            "vorname": "Lisch",
+            "personalnr": "12348",
+            "bereich_fakultaet": "Telekom",
+            "gleitzeit": true,
+            "urlaubsjahr": "2023",
+            "zuzuzahltag_schweben": "0",
+            "gesamturlaub": "30",
+            "stand": "01.2023",
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.",
+            "urlaubsantraege": [
+                {
+                    "vom": "02.01.23",
+                    "bis": "03.01.23",
+                    "beantragte_tage": "2",
+                    "rest_tage": "28",
+                    "antragsteller": "Iclo",
+                    "befuerwortet": "Reiß Zeng",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "01.02.23",
+                    "bis": "30.02.23",
+                    "beantragte_tage": "24",
+                    "rest_tage": "5",
+                    "antragsteller": "René",
+                    "befuerwortet": "Reiß Zeng",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "05.01.24",
+                    "bis": "06.01.24",
+                    "beantragte_tage": "2",
+                    "rest_tage": "3",
+                    "antragsteller": "René",
+                    "befuerwortet": "Reiß Zeng",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "22.24",
+                    "bis": "22.02.24",
+                    "beantragte_tage": "1",
+                    "rest_tage": "0",
+                    "antragsteller": "René",
+                    "befuerwortet": "Reiß Zeng",
+                    "genehmigt": true
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 23.20225214958191
+}

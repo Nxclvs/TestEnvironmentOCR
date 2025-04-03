@@ -1,0 +1,215 @@
+{
+    "data": [
+        {
+            "name": "Schneider",
+            "vorname": "Gerhard",
+            "personalnr": "73",
+            "bereich_fakultaet": "Technik",
+            "gleitzeit": false,
+            "urlaubsjahr": "2024",
+            "zusatzurlaub_schwerbeh": "",
+            "gesamturlaub": "30",
+            "eintraege": [
+                {
+                    "vom": "01.11.2023",
+                    "bis": "04.11.2023",
+                    "beantragte_tage": "4",
+                    "rest_tage": "23",
+                    "antragsteller": "Frau Schneider",
+                    "befuerwortet": "Herr Boe",
+                    "genehmigt": "Herr Schmitz"
+                },
+                {
+                    "vom": "07.01.2024",
+                    "bis": "07.01.2024",
+                    "beantragte_tage": "1",
+                    "rest_tage": "22",
+                    "antragsteller": "Herr Schneider",
+                    "befuerwortet": "Herr Boe",
+                    "genehmigt": "Herr Schmitz"
+                },
+                {
+                    "vom": "08.10.2024",
+                    "bis": "10.10.2024",
+                    "beantragte_tage": "3",
+                    "rest_tage": "19",
+                    "antragsteller": "Herr Schneider",
+                    "befuerwortet": "Herr Boe",
+                    "genehmigt": "Herr Schmitz"
+                },
+                {
+                    "vom": "02.03.2024",
+                    "bis": "04.03.2024",
+                    "beantragte_tage": "3",
+                    "rest_tage": "16",
+                    "antragsteller": "Herr Schneider",
+                    "befuerwortet": "Herr Boe",
+                    "genehmigt": "Herr Schmitz"
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                },
+                {
+                    "vom": "",
+                    "bis": "",
+                    "beantragte_tage": "",
+                    "rest_tage": "",
+                    "antragsteller": "",
+                    "befuerwortet": "",
+                    "genehmigt": ""
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 74.80658793449402
+}

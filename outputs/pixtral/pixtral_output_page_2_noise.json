@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "name": "Schwarz",
+            "vorname": "Dennil",
+            "personalnr": "0787593296",
+            "bereich_fakultaet": "ITAF",
+            "gleitzeit": true,
+            "urlaubsjahr": "2023",
+            "zusatzaurlaub_f_schwebe": "Nein",
+            "gesamturlaub": "4.4",
+            "urlaubsantraege": [
+                {
+                    "vom": "09.08",
+                    "bis": "16.08",
+                    "beantragte_tage": "5",
+                    "rest_tage": "3.9",
+                    "antragsteller": "Schwarz",
+                    "befuerwortet": "Schwarz",
+                    "genehmigt": "Schwarz"
+                },
+                {
+                    "vom": "22.12",
+                    "bis": "31.12",
+                    "beantragte_tage": "7.5",
+                    "rest_tage": "0",
+                    "antragsteller": "Schwarz",
+                    "befuerwortet": "Schwarz",
+                    "genehmigt": "Schwarz"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsaetzlich im laufenden Kalenderjahr, spaetestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 17.336044311523438
+}

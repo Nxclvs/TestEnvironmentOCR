@@ -3,53 +3,53 @@
         {
             "name": "Zekiri",
             "vorname": "John",
-            "personalnr": "004044",
+            "personalnr": "014044",
             "bereich_fakultaet": "ITAG",
             "gleitzeit": true,
             "urlaubsjahr": "2024",
-            "zusatzurlaub_f_schwebe": "",
+            "zusatzturlaub_f_schwebe": "",
             "gesamturlaub": "30",
             "stand": "01.2023",
-            "eintraege": [
+            "urlaubsantraege": [
                 {
-                    "von": "04.04.2024",
+                    "vom": "04.04.2024",
                     "bis": "10.04.2024",
                     "beantragte_tage": "10",
                     "rest_tage": "20",
                     "antragsteller": "Zekiri",
-                    "bewilligt": "Ja",
-                    "genehmigt": "Ensar"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "von": "01.02.2024",
+                    "vom": "01.02.2024",
                     "bis": "10.02.2024",
                     "beantragte_tage": "10",
                     "rest_tage": "10",
                     "antragsteller": "Zekiri",
-                    "bewilligt": "Ja",
-                    "genehmigt": "Ensar"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "von": "15.10.2024",
-                    "bis": "20.10.2024",
+                    "vom": "15.10.2024",
+                    "bis": "21.10.2024",
                     "beantragte_tage": "5",
                     "rest_tage": "5",
                     "antragsteller": "Zekiri",
-                    "bewilligt": "Ja",
-                    "genehmigt": "Ensar"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "von": "01.01.2025",
-                    "bis": "10.01.2025",
+                    "vom": "01.04.2025",
+                    "bis": "10.04.2025",
                     "beantragte_tage": "10",
                     "rest_tage": "10",
                     "antragsteller": "Zekiri",
-                    "bewilligt": "Ja",
-                    "genehmigt": "Ensar"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 }
             ],
             "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
         }
     ],
-    "total_processing_time_sec": 20.633296012878418
+    "total_processing_time_sec": 16.971381902694702
 }

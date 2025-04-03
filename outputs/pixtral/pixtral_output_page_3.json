@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "name": "Hans Dieles",
+            "vorname": "Schmidt",
+            "personalnr": "38897426",
+            "bereich_fakultaet": "Technik",
+            "gleitzeit": false,
+            "urlaubsjahr": "2024",
+            "zusatztarliches_schwerbeh": "",
+            "gesamturlaub": "30",
+            "eintraege": [
+                {
+                    "vom": "19.2.2024",
+                    "bis": "24.2.2024",
+                    "beantragte_tage": "6",
+                    "rest_tage": "22",
+                    "antragsteller": "H. Schmidt",
+                    "befugworter": "A. Böll",
+                    "genehmigt": "D. Müller"
+                },
+                {
+                    "vom": "08.08.2024",
+                    "bis": "09.08.2024",
+                    "beantragte_tage": "1",
+                    "rest_tage": "21",
+                    "antragsteller": "H. Schmidt",
+                    "befugworter": "A. Böll",
+                    "genehmigt": "D. Müller"
+                },
+                {
+                    "vom": "02.09.2024",
+                    "bis": "10.09.2024",
+                    "beantragte_tage": "8",
+                    "rest_tage": "13",
+                    "antragsteller": "H. Schmidt",
+                    "befugworter": "A. Böll",
+                    "genehmigt": "D. Müller"
+                },
+                {
+                    "vom": "23.12.2024",
+                    "bis": "31.12.2024",
+                    "beantragte_tage": "8",
+                    "rest_tage": "4",
+                    "antragsteller": "H. Schmidt",
+                    "befugworter": "A. Böll",
+                    "genehmigt": "D. Müller"
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 19.34130096435547
+}

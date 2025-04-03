@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "name": "Schneider",
+            "vorname": "Gerhard",
+            "personalnr": "73",
+            "bereich_fakultat": "Technik",
+            "gleitzeit": false,
+            "urlaubsjahr": "2024",
+            "zusatzurlaub_schwerbeh": "",
+            "gesamturlaub": "30",
+            "urlaubsantrage": [
+                {
+                    "vom": "02.11.2021",
+                    "bis": "04.12.2021",
+                    "beantragte_tage": 7,
+                    "resttage": 23,
+                    "antragsteller": "Rw",
+                    "befurwortet": "Bo",
+                    "genehmigt": "Sewy"
+                },
+                {
+                    "vom": "07.07.2024",
+                    "bis": "07.09.2024",
+                    "beantragte_tage": 30,
+                    "resttage": 0,
+                    "antragsteller": "Rw",
+                    "befurwortet": "Bo",
+                    "genehmigt": "Sewy"
+                },
+                {
+                    "vom": "08.10.2024",
+                    "bis": "10.10.2024",
+                    "beantragte_tage": 2,
+                    "resttage": 28,
+                    "antragsteller": "Rw",
+                    "befurwortet": "Bo",
+                    "genehmigt": "Sewy"
+                },
+                {
+                    "vom": "02.03.2025",
+                    "bis": "09.04.2025",
+                    "beantragte_tage": 30,
+                    "resttage": 0,
+                    "antragsteller": "Rw",
+                    "befurwortet": "Bo",
+                    "genehmigt": "Sewy"
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 18.99004340171814
+}

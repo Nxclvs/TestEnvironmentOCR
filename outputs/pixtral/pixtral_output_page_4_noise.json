@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "name": "Müller",
+            "vorname": "Debora",
+            "personalnr": "0765320",
+            "bereich_fakultaet": "ZM",
+            "gleitzeit": true,
+            "urlaubsjahr": "2023",
+            "zustellauf_schwerb.": "nein",
+            "gesamturlaub": "40 Tage",
+            "eintraege": [
+                {
+                    "vom": "10.12.22",
+                    "bis": "10.12.2014",
+                    "beantragte_tage": "10",
+                    "rest_tage": "30",
+                    "antragsteller": "Büro",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "OK"
+                },
+                {
+                    "vom": "13.11.22",
+                    "bis": "13.11.07",
+                    "beantragte_tage": "10",
+                    "rest_tage": "20",
+                    "antragsteller": "B2c",
+                    "befuerwortet": "K",
+                    "genehmigt": "OK"
+                },
+                {
+                    "vom": "24.02.2022",
+                    "bis": "25.11.01",
+                    "beantragte_tage": "15",
+                    "rest_tage": "7",
+                    "antragsteller": "SS",
+                    "befuerwortet": "Ed Do",
+                    "genehmigt": "OK"
+                },
+                {
+                    "vom": "07.04.2022",
+                    "bis": "05.04.2023",
+                    "beantragte_tage": "7",
+                    "rest_tage": "0",
+                    "antragsteller": "SS",
+                    "befuerwortet": "UU",
+                    "genehmigt": "OK"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 27.69300866127014
+}

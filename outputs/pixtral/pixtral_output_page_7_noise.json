@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "name": "Sözük",
+            "vorname": "Isa",
+            "personalnr": "4203669",
+            "bereich_fakultaet": "Dauerbo",
+            "gleitzeit": true,
+            "urlaubsjahr": 2025,
+            "zusatzurlaub_schwerbeh": 0,
+            "gesamturlaub": 30,
+            "urlaubsantraege": [
+                {
+                    "von": "04.01.2024",
+                    "bis": "19.01.2024",
+                    "beantragte_tage": 12,
+                    "rest_tage": 18,
+                    "antragsteller": "7648",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "ja"
+                },
+                {
+                    "von": "06.06.2024",
+                    "bis": "12.06.2024",
+                    "beantragte_tage": 10,
+                    "rest_tage": 8,
+                    "antragsteller": "7648",
+                    "befuerwortet": "ja",
+                    "genehmigt": "ja"
+                },
+                {
+                    "von": "08.06.2024",
+                    "bis": "04.08.2024",
+                    "beantragte_tage": 2,
+                    "rest_tage": 6,
+                    "antragsteller": "7648",
+                    "befuerwortet": "ja",
+                    "genehmigt": "ja"
+                },
+                {
+                    "von": "02.08.2024",
+                    "bis": "25.08.2024",
+                    "beantragte_tage": 3,
+                    "rest_tage": 3,
+                    "antragsteller": "7648",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "nein"
+                },
+                {
+                    "von": "08.08.2024",
+                    "bis": "14.08.2024",
+                    "beantragte_tage": 7,
+                    "rest_tage": 0,
+                    "antragsteller": "7648",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 25.269798517227173
+}

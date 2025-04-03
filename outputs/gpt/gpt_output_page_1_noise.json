@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "urlaubsantrag": {
+                "name": "Alles",
+                "vorname": "Liesch",
+                "personalnr": "123AB",
+                "bereich_fakultät": "Telekom",
+                "gleitzeit": true,
+                "urlaubsjahr": 2023,
+                "zusatzurlaub_schwerbeh": "0",
+                "gesamturlaub": "30",
+                "einträge": [
+                    {
+                        "vom": "02.01.24",
+                        "bis": "03.01.24",
+                        "beantragte_tage": "2",
+                        "rest_tage": "28",
+                        "antragsteller": "Ich",
+                        "befürwortet": "René Zwing",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "01.07.24",
+                        "bis": "30.07.24",
+                        "beantragte_tage": "24",
+                        "rest_tage": "5",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zwing",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "05.02.24",
+                        "bis": "16.02.24",
+                        "beantragte_tage": "5",
+                        "rest_tage": "2",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zwinge",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "11.11.24",
+                        "bis": "12.11.24",
+                        "beantragte_tage": "1",
+                        "rest_tage": "0",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zopf",
+                        "genehmigt": true
+                    }
+                ]
+            }
+        }
+    ],
+    "total_processing_time_sec": 17.882364511489868
+}

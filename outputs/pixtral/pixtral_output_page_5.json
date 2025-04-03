@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "name": "Leclerc",
+            "vorname": "Yannik Luca",
+            "personalnr": "012345",
+            "bereich_fakultaet": "Betrieb",
+            "urlaubsjahr": "2022",
+            "zusatzurlaub_f_schwerbeh": "5",
+            "gesamturlaub": "30",
+            "stand": "01/2023",
+            "eintraege": [
+                {
+                    "von": "01.01",
+                    "bis": "11.01",
+                    "beantragte_tage": "10",
+                    "rest_tage": "20",
+                    "antragsteller": "Y.Leclerc",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y.Leclerc"
+                },
+                {
+                    "von": "01.04",
+                    "bis": "14.04",
+                    "beantragte_tage": "4",
+                    "rest_tage": "16",
+                    "antragsteller": "Y.Leclerc",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y.Leclerc"
+                },
+                {
+                    "von": "01.10",
+                    "bis": "11.10",
+                    "beantragte_tage": "11",
+                    "rest_tage": "5",
+                    "antragsteller": "Y.Leclerc",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y.Leclerc"
+                },
+                {
+                    "von": "01.11",
+                    "bis": "05.11",
+                    "beantragte_tage": "5",
+                    "rest_tage": "0",
+                    "antragsteller": "Y.Leclerc",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y.Leclerc"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 18.04595947265625
+}

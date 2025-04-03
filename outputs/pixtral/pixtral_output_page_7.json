@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "name": "Szilvak",
+            "vorname": "Isa",
+            "personalnr": "4209669",
+            "bereich_fakultaet": "Dammbr",
+            "gleitzeit": true,
+            "urlaubsjahr": 2023,
+            "zusatzurlaub_schwerbeh": 0,
+            "gesamturlaub": 30,
+            "urlaubsantraege": [
+                {
+                    "von": "04.02.2024",
+                    "bis": "09.03.2024",
+                    "beantragte_tage": 12,
+                    "rest_tage": 18,
+                    "antragsteller": "7654",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "von": "06.06.2024",
+                    "bis": "12.05.2024",
+                    "beantragte_tage": 10,
+                    "rest_tage": 8,
+                    "antragsteller": "148",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "von": "08.06.2024",
+                    "bis": "09.06.2024",
+                    "beantragte_tage": 2,
+                    "rest_tage": 6,
+                    "antragsteller": "672",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "von": "02.08.2024",
+                    "bis": "25.08.2024",
+                    "beantragte_tage": 3,
+                    "rest_tage": 3,
+                    "antragsteller": "7654",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "von": "08.08.2025",
+                    "bis": "14.08.2024",
+                    "beantragte_tage": 7,
+                    "rest_tage": 21,
+                    "antragsteller": "7657",
+                    "befuerwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 19.84131097793579
+}

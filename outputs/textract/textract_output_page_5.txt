@@ -1,0 +1,47 @@
+Table[0][0] = vom 
+Table[0][1] = bis 
+Table[0][2] = beantragte Tage 
+Table[0][3] = Rest- Tage 
+Table[0][4] = Antragsteller(in) 
+Table[0][5] = befürwortet 
+Table[0][6] = genehmigt 
+Table[1][0] = 01.01 
+Table[1][1] = 11.01 
+Table[1][2] = 10 
+Table[1][3] = 20 
+Table[1][4] = Y.feelies 
+Table[1][5] = Chef 
+Table[1][6] = Y Seely 
+Table[2][0] = 01.04. 
+Table[2][1] = 04.04 
+Table[2][2] = 4 
+Table[2][3] = 16 
+Table[2][4] = Y. Leekes 
+Table[2][5] = ref 
+Table[2][6] = Y. Leeph 
+Table[3][0] = 01.10 
+Table[3][1] = 11.10 
+Table[3][2] = 11 
+Table[3][3] = 5 
+Table[3][4] = V.feelies 
+Table[3][5] = Chef 
+Table[3][6] = Y keep 
+Table[4][0] = 01.12 
+Table[4][1] = 0512 
+Table[4][2] = 5 
+Table[4][3] = O 
+Table[4][4] = Y. feeker 
+Table[4][5] = chef 
+Table[4][6] = Y. seely 
+
+
+Field: Key: Bereich/Fakultät:, Value: Betabots
+Field: Key: Personalnr.:, Value: 012345
+Field: Key: Gesamturlaub ¹:, Value: 30
+Field: Key: Zusatzurlaub f, Schwerbeh,:, Value: 5
+Field: Key: Vorname:, Value: Yannik Luca
+Field: Key: Urlaubsjahr:, Value: 2027
+Field: Key: Name:, Value: Leekes
+Field: Key: Stand:, Value: 01/2023
+
+--- Gesamtverarbeitungszeit: 2.56 Sekunden ---

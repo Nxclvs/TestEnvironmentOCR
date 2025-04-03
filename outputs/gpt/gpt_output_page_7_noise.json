@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "urlaubsantrag": {
+                "name": "Sogtürk",
+                "vorname": "Isa",
+                "personalnr": "4209669",
+                "bereich_fakultat": "Daimbro",
+                "gleitzeit": true,
+                "urlaubsjahr": 2023,
+                "zusatzurlaub_schwerbeh": 0,
+                "gesamturlaub": 30,
+                "antraege": [
+                    {
+                        "von": "01.02.2023",
+                        "bis": "03.02.2023",
+                        "beantragte_tage": 2,
+                        "rest_tage": -8,
+                        "antragsteller": "unleserlich",
+                        "befurowertet": "unleserlich",
+                        "genehmigt": "unleserlich"
+                    },
+                    {
+                        "von": "05.05.2023",
+                        "bis": "12.05.2023",
+                        "beantragte_tage": 7,
+                        "rest_tage": 8,
+                        "antragsteller": "unleserlich",
+                        "befurowertet": "unleserlich",
+                        "genehmigt": "unleserlich"
+                    },
+                    {
+                        "von": "08.06.2023",
+                        "bis": "09.06.2023",
+                        "beantragte_tage": 2,
+                        "rest_tage": 6,
+                        "antragsteller": "unleserlich",
+                        "befurowertet": "unleserlich",
+                        "genehmigt": "unleserlich"
+                    },
+                    {
+                        "von": "22.08.2023",
+                        "bis": "25.08.2023",
+                        "beantragte_tage": 3,
+                        "rest_tage": 3,
+                        "antragsteller": "unleserlich",
+                        "befurowertet": "unleserlich",
+                        "genehmigt": "unleserlich"
+                    },
+                    {
+                        "von": "08.01.2024",
+                        "bis": "14.01.2024",
+                        "beantragte_tage": 3,
+                        "rest_tage": "unleserlich",
+                        "antragsteller": "unleserlich",
+                        "befurowertet": "unleserlich",
+                        "genehmigt": "unleserlich"
+                    }
+                ]
+            }
+        }
+    ],
+    "total_processing_time_sec": 36.70793175697327
+}

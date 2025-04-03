@@ -1,0 +1,47 @@
+Table[0][0] = vom 
+Table[0][1] = bis 
+Table[0][2] = beantragte Tage 
+Table[0][3] = Rest- Tage 
+Table[0][4] = Antragsteller(in) 
+Table[0][5] = befürwortet 
+Table[0][6] = genehmigt 
+Table[1][0] = 10.12.27 
+Table[1][1] = 20.12.2027 
+Table[1][2] = 10 
+Table[1][3] = 30 
+Table[1][4] = Duner 
+Table[1][5] = Lbel 
+Table[1][6] = D.Mree 
+Table[2][0] = 13.11.27 
+Table[2][1] = 23.11.7077 
+Table[2][2] = 10 
+Table[2][3] = 20 
+Table[2][4] = mee 
+Table[2][5] = KA 
+Table[2][6] = A 
+Table[3][0] = 01.02.2027 
+Table[3][1] = 13.11.2027 
+Table[3][2] = 13 
+Table[3][3] = 7 
+Table[3][4] = new 
+Table[3][5] = Cd Dale 
+Table[3][6] = X 
+Table[4][0] = 02.01.2017 
+Table[4][1] = 09.01.2017 
+Table[4][2] = 7 
+Table[4][3] = O 
+Table[4][5] = we 
+Table[4][6] = K these 
+
+
+Field: Key: Bereich/Fakultät:, Value: FM
+Field: Key: Personalnr.:, Value: 0765320
+Field: Key: Gesamturlaub ¹:, Value: 40 Tage
+Field: Key: Zusatzurlaub f. Schwerbeh.:, Value: nein
+Field: Key: Vorname:, Value: Debora
+Field: Key: Gleitzeit, Value: SELECTED
+Field: Key: Urlaubsjahr:, Value: 2027
+Field: Key: Name:, Value: Muller
+Field: Key: Stand:, Value: 01/2023
+
+--- Gesamtverarbeitungszeit: 5.61 Sekunden ---

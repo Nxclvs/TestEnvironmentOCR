@@ -5,48 +5,50 @@
             "vorname": "John",
             "personalnr": "014044",
             "bereich_fakultaet": "ITAG",
-            "genehmigt": true,
+            "gleitzeit": true,
             "urlaubsjahr": "2024",
+            "zusatzurlaub_i_schweben": "",
             "gesamturlaub": "30",
             "eintraege": [
                 {
-                    "vom": "01.01.2024",
-                    "bis": "10.01.2024",
+                    "von": "04.04.2024",
+                    "bis": "10.04.2024",
                     "beantragte_tage": "10",
                     "rest_tage": "20",
                     "antragsteller": "Zekiri",
-                    "befugwortet": "Jahr",
-                    "genehmigt": "Genehmigt"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "vom": "01.02.2024",
-                    "bis": "10.02.2024",
+                    "von": "01.09.2024",
+                    "bis": "10.09.2024",
                     "beantragte_tage": "10",
                     "rest_tage": "10",
                     "antragsteller": "Zekiri",
-                    "befugwortet": "Jahr",
-                    "genehmigt": "Genehmigt"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "vom": "15.10.2024",
+                    "von": "16.10.2024",
                     "bis": "20.10.2024",
                     "beantragte_tage": "5",
                     "rest_tage": "5",
                     "antragsteller": "Zekiri",
-                    "befugwortet": "Jahr",
-                    "genehmigt": "Genehmigt"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Ja"
                 },
                 {
-                    "vom": "01.04.2025",
-                    "bis": "10.04.2025",
+                    "von": "01.01.2025",
+                    "bis": "10.01.2025",
                     "beantragte_tage": "10",
                     "rest_tage": "10",
                     "antragsteller": "Zekiri",
-                    "befugwortet": "Jahr",
-                    "genehmigt": "Genehmigt"
+                    "befuerwortet": "Ja",
+                    "genehmigt": "Nein"
                 }
-            ]
+            ],
+            "hinweis": "Der Urlaub soll grundsaetzlich im laufenden Kalenderjahr, spaetestens jedoch bis zum 30.09. des Folgejahres genommen werden."
         }
     ],
-    "total_processing_time_sec": 20.74982500076294
+    "total_processing_time_sec": 22.412532806396484
 }

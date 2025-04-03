@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "name": "Schneider",
+            "vorname": "Gerhard",
+            "personalnr": "73",
+            "bereich_fakultaet": "Technik",
+            "gleitzeit": false,
+            "urlaubsjahr": "2024",
+            "zusatzurlaub_schwerbeh": "",
+            "gesamturlaub": "30",
+            "stand": "01/2023",
+            "eintraege": [
+                {
+                    "von": "01.11.2023",
+                    "bis": "04.11.2023",
+                    "beantragte_tage": "3",
+                    "rest_tage": "23",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst",
+                    "bemerkung": ""
+                },
+                {
+                    "von": "01.01.2024",
+                    "bis": "01.01.2024",
+                    "beantragte_tage": "0",
+                    "rest_tage": "30",
+                    "antragsteller": "Herr",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst",
+                    "bemerkung": ""
+                },
+                {
+                    "von": "08.10.2024",
+                    "bis": "09.10.2024",
+                    "beantragte_tage": "2",
+                    "rest_tage": "28",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst",
+                    "bemerkung": ""
+                },
+                {
+                    "von": "01.03.2025",
+                    "bis": "04.03.2025",
+                    "beantragte_tage": "4",
+                    "rest_tage": "26",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst",
+                    "bemerkung": ""
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 18.417812824249268
+}

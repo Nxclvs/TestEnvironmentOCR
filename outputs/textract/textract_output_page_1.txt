@@ -1,0 +1,43 @@
+Table[0][0] = vom 
+Table[0][1] = bis 
+Table[0][2] = beantragte Tage 
+Table[0][3] = Rest- Tage 
+Table[0][4] = Antragsteller(in) 
+Table[0][5] = befürwortet 
+Table[0][6] = genehmigt 
+Table[1][0] = 02.01.24 
+Table[1][1] = 03.01.24 
+Table[1][2] = 2 
+Table[1][3] = 28 
+Table[1][4] = lch 
+Table[1][5] = Reve twing 
+Table[2][0] = 01.02.24 
+Table[2][1] = 30.02.24 
+Table[2][2] = 29 
+Table[2][3] = 5 
+Table[2][4] = Rene 
+Table[3][0] = 05.02.24 
+Table[3][1] = 10.02.24 
+Table[3][2] = 5 
+Table[3][3] = 2 
+Table[3][4] = Rene 
+Table[3][5] = Rine twing 
+Table[4][0] = 12.12.24 
+Table[4][1] = 72.12.24 
+Table[4][2] = 1 
+Table[4][3] = 0 
+Table[4][4] = Rene 
+Table[4][5] = Rew Zuij 
+
+
+Field: Key: Bereich/Fakultät:, Value: Telekom
+Field: Key: Personalnr.:, Value: 123AB
+Field: Key: Gesamturlaub ¹:, Value: 30
+Field: Key: Zusatzurlaub f. Schwerbeh.:, Value: 0
+Field: Key: Vorname:, Value: Losch
+Field: Key: Gleitzeit, Value: SELECTED
+Field: Key: Urlaubsjahr:, Value: 2013
+Field: Key: Name:, Value: Alles
+Field: Key: Stand:, Value: 01/2023
+
+--- Gesamtverarbeitungszeit: 3.57 Sekunden ---

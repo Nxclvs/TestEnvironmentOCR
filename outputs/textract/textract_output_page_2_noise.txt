@@ -1,0 +1,34 @@
+Table[0][0] = vom 
+Table[0][1] = bis 
+Table[0][2] = beantragte Tage 
+Table[0][3] = Rest- Tage 
+Table[0][4] = Antragsteller(in) 
+Table[0][5] = befürwortet 
+Table[0][6] = genehmigt 
+Table[1][0] = 09.08 
+Table[1][1] = 76.08 
+Table[1][2] = 5 
+Table[1][3] = 39 
+Table[1][6] = journey 
+Table[2][0] = 73.72 
+Table[2][1] = 37.72 
+Table[2][2] = 75 
+Table[2][3] = O 
+Table[2][4] = Armal 
+Table[2][5] = even 
+Table[2][6] = semes 
+
+
+Field: Key: Bereich/Fakultät:, Value: DTAG
+Field: Key: Personalnr.:, Value: 0787593296
+Field: Key: Gesamturlaub ¹:, Value: 44
+Field: Key: Zusatzurlaub f. Schwerbeh.:, Value: Nein
+Field: Key: Vorname:, Value: Dennil
+Field: Key: Gleitzeit, Value: SELECTED
+Field: Key: Urlaubsjahr:, Value: 2025.
+Field: Key: Name:, Value: Schwarz
+Field: Key: Stand:, Value: 01/2023
+Field: Key: jedoch bis zum, Value: 30.09.
+Field: Key: des, Value: Folgejahres genommen werden.
+
+--- Gesamtverarbeitungszeit: 5.72 Sekunden ---

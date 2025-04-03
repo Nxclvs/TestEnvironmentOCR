@@ -1,0 +1,48 @@
+Table[0][0] = vom 
+Table[0][1] = bis 
+Table[0][2] = beantragte Tage 
+Table[0][3] = Rest Tage 
+Table[0][4] = Antragsteller(in) 
+Table[0][5] = befürwortet 
+Table[0][6] = genehmigt 
+Table[1][0] = 14.7.24 
+Table[1][1] = 21.7.24 
+Table[1][2] = 8 
+Table[1][3] = 22 
+Table[1][4] = H Schmilt 
+Table[1][5] = S.By 
+Table[1][6] = D. Muller 
+Table[2][0] = 08.08.2024 
+Table[2][1] = 09.08.2024 
+Table[2][2] = 1 
+Table[2][3] = 21 
+Table[2][4] = H Smill 
+Table[2][5] = S Bilar 
+Table[2][6] = D. Miller 
+Table[3][0] = 02.09.2024 
+Table[3][1] = 10.09.2024 
+Table[3][2] = 8 
+Table[3][3] = 13 
+Table[3][4] = H Sdint 
+Table[3][5] = A East 
+Table[3][6] = D Miller 
+Table[4][0] = 23.12.2024 
+Table[4][1] = 31.12.2024 
+Table[4][2] = I 
+Table[4][3] = 4 
+Table[4][4] = H School 
+Table[4][5] = A Bill 
+Table[4][6] = DMilles 
+
+
+Field: Key: Bereich/Fakultät:, Value: Technik
+Field: Key: Personalnr.:, Value: 36897126
+Field: Key: Gesamturlaub ¹:, Value: 30
+Field: Key: Zusatzurlaub f Schwerbeh.:, Value: (no value)
+Field: Key: Vorname:, Value: Schmidt
+Field: Key: Gleitzeit, Value: NOT_SELECTED
+Field: Key: Urlaubsjahr:, Value: 2024
+Field: Key: Name:, Value: Hans Dieter
+Field: Key: Stand:, Value: 01/2023
+
+--- Gesamtverarbeitungszeit: 5.78 Sekunden ---

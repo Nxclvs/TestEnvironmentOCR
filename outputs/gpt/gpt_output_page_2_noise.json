@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "name": "Schwarz",
+            "vorname": "Daniel",
+            "personalnr": "0787513246",
+            "bereich_fakultat": "DITF",
+            "gleitzeit": true,
+            "urlaubsjahr": 2023,
+            "zusatzurlaub_f_schwerbeh": "Nein",
+            "gesamturlaub": 44,
+            "urlaubsantraege": [
+                {
+                    "vom": "04.09",
+                    "bis": "26.09",
+                    "beantragte_tage": 5,
+                    "rest_tage": 39,
+                    "antragsteller": "unterschrieben",
+                    "befuerwortet": "unterschrieben",
+                    "genehmigt": "unterschrieben"
+                },
+                {
+                    "vom": "23.12",
+                    "bis": "31.12",
+                    "beantragte_tage": 15,
+                    "rest_tage": 0,
+                    "antragsteller": "unterschrieben",
+                    "befuerwortet": "unterschrieben",
+                    "genehmigt": "unterschrieben"
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 27.101583242416382
+}

@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "Alles",
+            "vorname": "Lisch",
+            "personalnr": "12348",
+            "bereich_fakultaet": "Telekom",
+            "urlaubsjahr": 2023,
+            "zunahzurlaub_f_schwerb": 0,
+            "gesamturlaub": 30,
+            "urlaubsantraege": [
+                {
+                    "von": "02.01.24",
+                    "bis": "03.01.24",
+                    "beantragte_tage": 2,
+                    "rest_tage": 28,
+                    "antragsteller": "Isa",
+                    "befugwortet": "René Ziegler",
+                    "genehmigt": true
+                },
+                {
+                    "von": "04.02.24",
+                    "bis": "30.02.24",
+                    "beantragte_tage": 24,
+                    "rest_tage": 5,
+                    "antragsteller": "René",
+                    "befugwortet": "René Ziegler",
+                    "genehmigt": true
+                },
+                {
+                    "von": "05.03.24",
+                    "bis": "06.03.24",
+                    "beantragte_tage": 2,
+                    "rest_tage": 3,
+                    "antragsteller": "René",
+                    "befugwortet": "René Ziegler",
+                    "genehmigt": true
+                },
+                {
+                    "von": "22.12.24",
+                    "bis": "31.12.24",
+                    "beantragte_tage": 10,
+                    "rest_tage": 0,
+                    "antragsteller": "René",
+                    "befugwortet": "René Ziegler",
+                    "genehmigt": true
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 20.011310815811157
+}

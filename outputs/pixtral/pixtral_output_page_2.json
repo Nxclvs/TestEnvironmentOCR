@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "name": "Schwarz",
+            "vorname": "Dennis",
+            "personalnr": "0787593296",
+            "bereich_fakultaet": "DIT4",
+            "gleitzeit": false,
+            "urlaubsjahr": "2023",
+            "zusatzurlaub_f_schwebe": "Nein",
+            "gesamturlaub": "44",
+            "tabelle": [
+                {
+                    "vom": "09.08",
+                    "bis": "16.08",
+                    "beantragte_tage": "5",
+                    "rest_tage": "34",
+                    "antragsteller": "Schwarz",
+                    "befugwortet": "Schwarz",
+                    "genehmigt": "Schwarz"
+                },
+                {
+                    "vom": "22.12",
+                    "bis": "31.12",
+                    "beantragte_tage": "10",
+                    "rest_tage": "0",
+                    "antragsteller": "Schwarz",
+                    "befugwortet": "Schwarz",
+                    "genehmigt": "Schwarz"
+                }
+            ],
+            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+        }
+    ],
+    "total_processing_time_sec": 11.875951528549194
+}

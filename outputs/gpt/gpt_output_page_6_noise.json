@@ -1,54 +1,55 @@
 {
     "data": [
         {
-            "name": "Zekiri",
-            "vorname": "John",
-            "personalnr": "OA1011",
-            "bereich_fakultat": "DTAG",
-            "gleitzeit": true,
-            "urlaubsjahr": 2024,
-            "zusatzurlaub_f_schwerbeh": "",
-            "gesamturlaub": 30,
-            "urlaubsantraege": [
-                {
-                    "vom": "01.01.2024",
-                    "bis": "10.01.2024",
-                    "beantragte_tage": 10,
-                    "resttage": 20,
-                    "antragsteller": "Zekiri",
-                    "befuerwortet": "Jack",
-                    "genehmigt": "Geury"
-                },
-                {
-                    "vom": "01.07.2024",
-                    "bis": "10.07.2024",
-                    "beantragte_tage": 10,
-                    "resttage": 10,
-                    "antragsteller": "Zekiri",
-                    "befuerwortet": "Jack",
-                    "genehmigt": "Geur"
-                },
-                {
-                    "vom": "16.10.2024",
-                    "bis": "20.10.2024",
-                    "beantragte_tage": 5,
-                    "resttage": 5,
-                    "antragsteller": "Zekiri",
-                    "befuerwortet": "Jack",
-                    "genehmigt": "Geur"
-                },
-                {
-                    "vom": "01.01.2025",
-                    "bis": "10.01.2025",
-                    "beantragte_tage": 10,
-                    "resttage": 0,
-                    "antragsteller": "Zeki.",
-                    "befuerwortet": "Jace",
-                    "genehmigt": "Geur"
-                }
-            ],
-            "hinweis": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
+            "urlaubsantrag": {
+                "name": "Zekiri",
+                "vorname": "John",
+                "personalnr": "OA1011",
+                "bereich_fakultat": "DTAG",
+                "gleitzeit": true,
+                "urlaubsjahr": 2024,
+                "zusatzurlaub_schwerbeh": "",
+                "gesamturlaub": 30,
+                "antrage": [
+                    {
+                        "vom": "01.01.2024",
+                        "bis": "10.01.2024",
+                        "beantragte_tage": 10,
+                        "resttage": 20,
+                        "antragsteller": "Zekiri",
+                        "befurwortet": "Jack",
+                        "genehmigt": "Geur"
+                    },
+                    {
+                        "vom": "01.07.2024",
+                        "bis": "10.01.2024",
+                        "beantragte_tage": 10,
+                        "resttage": 10,
+                        "antragsteller": "Zekiri",
+                        "befurwortet": "Jack",
+                        "genehmigt": "Geur"
+                    },
+                    {
+                        "vom": "16.10.2024",
+                        "bis": "24.10.2024",
+                        "beantragte_tage": 5,
+                        "resttage": 5,
+                        "antragsteller": "Zekiri",
+                        "befurwortet": "Jack",
+                        "genehmigt": "Geur"
+                    },
+                    {
+                        "vom": "01.01.2025",
+                        "bis": "10.01.2025",
+                        "beantragte_tage": 10,
+                        "resttage": 10,
+                        "antragsteller": "Zekiri",
+                        "befurwortet": "Zoe",
+                        "genehmigt": "Geur"
+                    }
+                ]
+            }
         }
     ],
-    "total_processing_time_sec": 28.94025206565857
+    "total_processing_time_sec": 33.25965714454651
 }

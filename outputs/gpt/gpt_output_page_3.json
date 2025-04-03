@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "urlaubsantrag": {
+                "name": "Hans Dieters",
+                "vorname": "Schmidt",
+                "personalnr": "36837126",
+                "bereich_fakultat": "Technik",
+                "gleitzeit": false,
+                "urlaubsjahr": 2024,
+                "zusatzurlaub_f_schwerbeh": "",
+                "gesamturlaub": 30,
+                "antraege": [
+                    {
+                        "vom": "14.7.24",
+                        "bis": "21.7.24",
+                        "beantragte_tage": 8,
+                        "rest_tage": 22,
+                        "antragsteller_in": "H. Schmidt",
+                        "befuerwortet": "A. Bayer",
+                        "genehmigt": "D. Müller"
+                    },
+                    {
+                        "vom": "08.08.2024",
+                        "bis": "08.09.2024",
+                        "beantragte_tage": 1,
+                        "rest_tage": 21,
+                        "antragsteller_in": "H. Schmidt",
+                        "befuerwortet": "A. Lücke",
+                        "genehmigt": "D. Müller"
+                    },
+                    {
+                        "vom": "02.09.2024",
+                        "bis": "10.09.2024",
+                        "beantragte_tage": 8,
+                        "rest_tage": 13,
+                        "antragsteller_in": "H. Schmidt",
+                        "befuerwortet": "A. Eibl",
+                        "genehmigt": "D. Müller"
+                    },
+                    {
+                        "vom": "23.12.2024",
+                        "bis": "31.12.2024",
+                        "beantragte_tage": 8,
+                        "rest_tage": 4,
+                        "antragsteller_in": "H. Schmidt",
+                        "befuerwortet": "A. Eibl",
+                        "genehmigt": "D. Müller"
+                    }
+                ]
+            }
+        }
+    ],
+    "total_processing_time_sec": 19.240883111953735
+}

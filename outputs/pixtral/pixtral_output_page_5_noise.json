@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "name": "Leckes",
+            "vorname": "Yannik Luca",
+            "personalnr": "012345",
+            "bereich_fakultaet": "Betabob",
+            "urlaubsjahr": "2022",
+            "zusatzurlaub_schwerbeh": "5",
+            "gesamturlaub": "30",
+            "stand": "01/2023",
+            "geleistete_gleitzeit": true,
+            "urlaubsantraege": [
+                {
+                    "vom": "01.01",
+                    "bis": "11.01",
+                    "beantragte_tage": "10",
+                    "rest_tage": "20",
+                    "antragsteller": "Y. Leckes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.04",
+                    "bis": "14.04",
+                    "beantragte_tage": "4",
+                    "rest_tage": "16",
+                    "antragsteller": "Y. Leckes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.10",
+                    "bis": "11.10",
+                    "beantragte_tage": "11",
+                    "rest_tage": "5",
+                    "antragsteller": "Y. Leckes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.11",
+                    "bis": "05.11",
+                    "beantragte_tage": "5",
+                    "rest_tage": "0",
+                    "antragsteller": "Y. Leckes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                }
+            ]
+        }
+    ],
+    "total_processing_time_sec": 18.860889434814453
+}
