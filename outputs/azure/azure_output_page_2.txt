@@ -1,16 +1,19 @@
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
-Zekiri
-Vorname: John
+Schwarz
+Urlaubsjahr:
+2025.
 Personalnr .:
-011011
-Bereich/Fakultät: DTAG
+0787593246
+Bereich/Fakultät: OTAC
 Gleitzeit
-Urlaubsjahr: 2024
+Vorname:
+Dannil
 Zusatzurlaub f. Schwerbeh .:
+Nein
 Gesamturlaub1):
-30
+44
 vom
 bis
 beantragte Tage
@@ -18,23 +21,13 @@ Rest- Tage
 Antragsteller(in)
 befürwortet
 genehmigt
-01.01.2020
-10.01.2024
-10
-20
-Zekiri
-01.02.2024
-10.02.2024 10
-10
-Zekiri
-Jak
-Saw
-16.10.2020
-21.10.2026 5
+09.08
+76.08
 5
-Zekiri
-01.01.2025 10.01.25 10
-10
-Zekini
+39
+73.72
+37.72
+15
+0
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 3.69 Sekunden ---
+--- Gesamtverarbeitungszeit: 2.77 Sekunden ---

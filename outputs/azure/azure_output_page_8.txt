@@ -1,0 +1,48 @@
+Stand: 01/2023
+1. URLAUBSANTRAG
+Name:
+Schneider
+Urlaubsjahr:
+2024
+Vorname:
+Gerhard
+Zusatzurlaub f. Schwerbeh,:
+Personalnr .:
+73
+Gesamturlaub1):
+30
+vom
+bis
+beantragte Tage
+Rest- Tage
+Antragsteller(in)
+befürwortet
+genehmigt
+02.11.2020
+01.12.2024
+7
+23
+Boa
+Server
+07.07.2010
+07.08.2010
+30
+0
+Bo
+song
+08.10.2006
+10.10.2017
+2
+28
+Bo
+Sony
+02.03.2020
+02.04.2023
+30
+0
+Ba
+sang
+Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
+Bereich/Fakultät: Technik
+Gleitzeit
+--- Gesamtverarbeitungszeit: 1.77 Sekunden ---

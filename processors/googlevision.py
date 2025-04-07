@@ -99,17 +99,14 @@ def extract_tables(project_id: str, location: str, processor_id: str, file_path:
 
     extracted_data["total_processing_time_sec"] = total_duration  
 
-    # Speichern der Ergebnisse als JSON
-    # with open(output_name, "w", encoding="utf-8") as f:
-    #     json.dump(extracted_data, f, indent=4, ensure_ascii=False)
-
     print(f"Google Vision fertig! Gesamtzeit: {total_duration:.2f} Sekunden")
     return extracted_data, output_name
 
 def run_google_vision(file_path):
     data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, file_path, MIME_TYPE)
 
-
+    with open(output_name, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     FILE_PATH = r'testfiles\output_page_6.pdf'

@@ -3,38 +3,39 @@ Stand: 01/2023
 Name:
 Zekiri
 Vorname: John
-Personalnr .:
-011011
-Bereich/Fakultät: DTAG
+Personalnr .: 011011
+Bereich/Fakultät:
+DTAG
 Gleitzeit
 Urlaubsjahr: 2024
 Zusatzurlaub f. Schwerbeh .:
-Gesamturlaub1):
-30
+Gesamturlaub1: 30
 vom
 bis
 beantragte Tage
-Rest- Tage
+Rest Tage
 Antragsteller(in)
 befürwortet
 genehmigt
-01.01.2020
+01.01.2024
 10.01.2024
 10
 20
 Zekiri
-01.02.2024
+01.02.2020
 10.02.2024 10
 10
 Zekiri
-Jak
-Saw
-16.10.2020
-21.10.2026 5
+Sar
+16.10.2024 21.10.2026
+5
 5
 Zekiri
-01.01.2025 10.01.25 10
+01.01.2025 10.01.25
 10
-Zekini
+10
+Zekin.
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 3.69 Sekunden ---
+--- Verarbeitungszeit für Bild: 37.95 Sekunden ---
+
+--- Gesamtverarbeitungszeit: 37.95 Sekunden ---

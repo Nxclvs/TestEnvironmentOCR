@@ -13,7 +13,6 @@ import modules.constants
 client = openai.OpenAI(api_key=config.get("gpt").get("key"))
 
 def pdf_to_image(pdf_path, output_folder="temp"):
-    """Konvertiert PDF in Bilder und speichert sie als PNG."""
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 

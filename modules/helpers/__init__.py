@@ -3,6 +3,7 @@ from PIL import Image
 import os
 import sys
 import shutil
+import pdf2image
 
 sys.path.append(os.path.dirname(os.path.dirname((__file__))))
 
@@ -47,6 +48,20 @@ def sort_outputs():
             for model in constants.model_list:
                 if model in file:
                     shutil.move(os.path.join(constants.output_dir, file), os.path.join(constants.output_dir, model, file))
+
+def pdf_to_image(pdf_path, output_folder="temp"):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    images = pdf2image.convert_from_path(pdf_path)
+    image_paths = []
+
+    for i, img in enumerate(images):
+        image_path = os.path.join(output_folder, f"page{i+1}.png")
+        img.save(image_path, "PNG")
+        image_paths.append(image_path)
+
+    return image_paths
 
 if __name__ == "__main__":
     sort_outputs()
