@@ -1,26 +1,14 @@
 {
     "Name": "Hans Dieter Schmidt",
-    "PersonalNr": "36897126",
+    "Vorname": "Schmidt",
+    "Personal Nr": "36897126",
     "Bereich/Fakultät": "Technik",
-    "Urlaubsjahr": "2024",
-    "ZusatzurlaubFSchwertebeh": "",
-    "Gesamturlauber": "30",
-    "Antragsteller(in)": [
-        "H. Schmidt",
-        "H. Schmidt",
-        "H. Schmidt",
-        "H. Schmidt"
-    ],
-    "befürwortet": [
-        "D. Müller",
-        "D. Müller",
-        "D. Müller",
-        "D. Müller"
-    ],
-    "genehmigt": [
-        "D. Müller",
-        "D. Müller",
-        "D. Müller",
-        "D. Müller"
-    ]
+    "Urlaubssjahr": "2024",
+    "Zusatzurlaub & Schworbetrag": "",
+    "Gesamturlaub": "30",
+    "Antragsteller(in)": "H. Schmidt",
+    "befürwortet": "A. Bie",
+    "genehmigt": "D. Müller",
+    "Stand": "01/2023",
+    "Remaining Days": "30"
 }

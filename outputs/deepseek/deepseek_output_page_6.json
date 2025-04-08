@@ -1,16 +1,40 @@
 {
     "Name": "Zekiri",
     "Vorname": "John",
-    "Personal Nr": "011011",
+    "Personal Nr.": "011011",
     "Bereich/Fakultät": "DTAG",
-    "Urlaubsjahr": "2024",
+    "Urlaubssjahr": "2024",
     "Zusatzurlaub f. Schwerbeh.": "",
     "Gesamturlaub": "30",
+    "Stand": "01/2023",
     "Antragsteller(in)": "Zekiri",
     "befürwortet": "Jah",
     "genehmigt": "Gew",
-    "Stand": "01/2023",
-    "Gleitzeit": true,
-    "Remaining Days": 10,
-    "Remaining Days (Next Year)": 10
+    "beantragte Tage": [
+        {
+            "vom": "01.04.2024",
+            "bis": "10.04.2024",
+            "beantragte Tage": 10,
+            "Rest-Tage": 20
+        },
+        {
+            "vom": "01.02.2024",
+            "bis": "10.02.2024",
+            "beantragte Tage": 10,
+            "Rest-Tage": 10
+        },
+        {
+            "vom": "16.10.2024",
+            "bis": "24.10.2024",
+            "beantragte Tage": 5,
+            "Rest-Tage": 5
+        },
+        {
+            "vom": "01.01.2025",
+            "bis": "10.01.2025",
+            "beantragte Tage": 10,
+            "Rest-Tage": 10
+        }
+    ],
+    "Note": "Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden."
 }

@@ -17,9 +17,9 @@ paths = [
     r"testfiles\output_page_8.pdf",
 ]
 
-for path in paths:
-    run_vision(path)
-    run_vision_with_noise(path)
-    modules.helpers.clear_temp_folder()
+# for path in paths:
+#     run_vision(path)
+#     run_vision_with_noise(path)
+#     modules.helpers.clear_temp_folder()
 
 modules.helpers.sort_outputs()

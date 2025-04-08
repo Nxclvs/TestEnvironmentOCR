@@ -3,12 +3,36 @@
     "Vorname": "Gerhard",
     "PersonalNr": "73",
     "Bereich/Fakultat": "Technik",
-    "Urlaubssprache": "Gleitzeit",
-    "Zusatzurlaub": "Schwerbeh.",
-    "Gesamturlauberl": "30",
-    "Antragsteller(in)": "Bu",
-    "befürwortet": "Bu",
-    "genehmigt": "Bu",
-    "beantragte Tage": "30",
-    "Rest-Tage": "0"
+    "Urlaubsschluss": "2024",
+    "Zusatzurlaub": "Schwerbeh: 30",
+    "Antragsteller(in)": [
+        {
+            "beantragte Tage": 7,
+            "Rest-Tage": 23,
+            "beendet": "Bo",
+            "befürwortet": "Bo",
+            "genehmigt": "Sony"
+        },
+        {
+            "beantragte Tage": 30,
+            "Rest-Tage": 0,
+            "beendet": "Bo",
+            "befürwortet": "Bo",
+            "genehmigt": "Sony"
+        },
+        {
+            "beantragte Tage": 2,
+            "Rest-Tage": 28,
+            "beendet": "Bo",
+            "befürwortet": "Bo",
+            "genehmigt": "Sony"
+        },
+        {
+            "beantragte Tage": 30,
+            "Rest-Tage": 0,
+            "beendet": "Bo",
+            "befürwortet": "Bo",
+            "genehmigt": "Sony"
+        }
+    ]
 }
