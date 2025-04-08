@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "name": "Soytürk",
+            "vorname": "Isa",
+            "personalnr": "4209669",
+            "bereich_fakultat": "Damm bro",
+            "gleitzeit": true,
+            "urlaubsjahr": 2025,
+            "zusatzurlaub_schwerbeh": 0,
+            "gesamturlaub": 30,
+            "urlaubsantrage": [
+                {
+                    "vom": "01.03.2024",
+                    "bis": "18.03.2024",
+                    "beantragte_tage": 12,
+                    "rest_tage": 18,
+                    "antragsteller": "unleserlich",
+                    "befurwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "vom": "06.05.2024",
+                    "bis": "17.05.2024",
+                    "beantragte_tage": 10,
+                    "rest_tage": 8,
+                    "antragsteller": "unleserlich",
+                    "befurwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "vom": "08.06.2024",
+                    "bis": "09.06.2024",
+                    "beantragte_tage": 2,
+                    "rest_tage": 6,
+                    "antragsteller": "unleserlich",
+                    "befurwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "vom": "20.08.2024",
+                    "bis": "25.08.2024",
+                    "beantragte_tage": 3,
+                    "rest_tage": 3,
+                    "antragsteller": "unleserlich",
+                    "befurwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "vom": "08.09.2024",
+                    "bis": "11.09.2024",
+                    "beantragte_tage": 2,
+                    "rest_tage": 1,
+                    "antragsteller": "unleserlich",
+                    "befurwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                }
+            ]
+        }
+    ]
+}

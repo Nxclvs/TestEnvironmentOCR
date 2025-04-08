@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "Schneider",
+            "vorname": "Gerhard",
+            "personalnr": "73",
+            "bereich_fakultaet": "Technik",
+            "gleitzeit": false,
+            "urlaubsjahr": "2024",
+            "zusatzurlaub_schwerbeh": "",
+            "gesamturlaub": "30",
+            "urlaubsantrage": [
+                {
+                    "von": "02.11.2024",
+                    "bis": "01.12.2024",
+                    "beantragte_tage": "7",
+                    "rest_tage": "23",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst"
+                },
+                {
+                    "von": "07.07.2010",
+                    "bis": "07.08.2010",
+                    "beantragte_tage": "30",
+                    "rest_tage": "0",
+                    "antragsteller": "Herr",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst"
+                },
+                {
+                    "von": "08.10.2008",
+                    "bis": "10.10.2017",
+                    "beantragte_tage": "2",
+                    "rest_tage": "28",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst"
+                },
+                {
+                    "von": "02.03.2023",
+                    "bis": "02.04.2023",
+                    "beantragte_tage": "30",
+                    "rest_tage": "0",
+                    "antragsteller": "Frau",
+                    "befuerwortet": "Herr",
+                    "genehmigt": "sonst"
+                }
+            ]
+        }
+    ]
+}
