@@ -1,0 +1,61 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\n☐\nBereich/Fakultät: Betabot50 Gleitzeit\n2027\nUrlaubsjahr:\nName: Leekes\nVorname: Yannik Luca\nPersonalnr.: 012345\nسی\nZusatzurlaub f. Schwerbeh.:\nGesamturlaub¹;\n3\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n01.01 11.01\n10\n20\nX Seely\n01.04. 04.04\n4\n16\nV.feekes Chef\nY. Leeker Chef\nV.feeles Chef\nYseeker Chef\n01.10 11.10 11\n5\n7. Recep\nYleen\nY\n01.12 05.12\n5\n0\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "01.01",
+                    "11.01",
+                    "10",
+                    "20",
+                    "V.feekes",
+                    "Chef",
+                    "X Seely"
+                ],
+                [
+                    "01.04.",
+                    "04.04",
+                    "4",
+                    "16",
+                    "Y. Leeker",
+                    "Chef",
+                    "7. Recep"
+                ],
+                [
+                    "01.10",
+                    "11.10",
+                    "11",
+                    "5",
+                    "V.feeles",
+                    "Chef",
+                    "Yleen"
+                ],
+                [
+                    "01.12",
+                    "05.12",
+                    "5",
+                    "0",
+                    "Yseeker",
+                    "Chef",
+                    "Y"
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 6.028380632400513
+}

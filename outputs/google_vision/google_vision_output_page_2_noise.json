@@ -1,0 +1,61 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät.\nName: Schwarz\nVorname: Dennil\nPersonalnr.: 0787593296\nDTAG\n☑ Gleitzeit\nUrlaubsjahr: 2025.\nZusatzurlaub f. Schwerbeh.: Nein\nGesamturlaub\":\n44\nRest\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n09.08 76.08\n5\n39\npratt.\nратим миром\nMrſ. асти\n73.72\n37.72 75\nO\nAwal\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 2,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "09.08",
+                    "76.08",
+                    "5",
+                    "39",
+                    "pratt.",
+                    "ратим",
+                    "миром"
+                ],
+                [
+                    "73.72",
+                    "37.72",
+                    "75",
+                    "O",
+                    "Awal",
+                    "Mrſ.",
+                    "асти"
+                ]
+            ]
+        },
+        {
+            "page_number": 1,
+            "table_index": 1,
+            "num_columns": 2,
+            "num_rows": 1,
+            "headers": [
+                [
+                    "Bereich/Fakultät.",
+                    "DTAG"
+                ]
+            ],
+            "rows": [
+                [
+                    "Urlaubsjahr:",
+                    "2025."
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 14.985728740692139
+}

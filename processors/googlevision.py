@@ -5,6 +5,8 @@ import time
 import pandas as pd
 from google.cloud import documentai
 from typing import Sequence, List
+import pdf2image
+from PIL import Image
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from localconfig import config
 
@@ -20,31 +22,28 @@ PROCESSOR_ID = config.get("googlevision").get("processor_id")
 MIME_TYPE = "application/pdf"
 
 def online_process(project_id=PROJECT_ID, location=LOCATION, processor_id=PROCESSOR_ID, file_path=None, mime_type=MIME_TYPE):
-    """Sendet ein Dokument an die Google Document AI API und misst die Laufzeit."""
-
     opts = {"api_endpoint": f"{location}-documentai.googleapis.com"}
     documentai_client = documentai.DocumentProcessorServiceClient(client_options=opts)
     resource_name = documentai_client.processor_path(project_id, location, processor_id)
 
     with open(file_path, "rb") as image:
-        image_content = image.read()
+        file_content = image.read()
 
-    raw_document = documentai.RawDocument(content=image_content, mime_type=mime_type)
+    raw_document = documentai.RawDocument(content=file_content, mime_type=mime_type)
     request = documentai.ProcessRequest(name=resource_name, raw_document=raw_document)
 
-    print(f"Sende Dokument an Google Vision API: {file_path}")
+    print(f"📤 Sende Dokument an Google Vision API: {file_path}")
 
     start_time = time.time()  
     result = documentai_client.process_document(request=request)
     end_time = time.time()  
     duration = end_time - start_time  
 
-    print(f"Google Vision Antwort erhalten! Verarbeitungszeit: {duration:.2f} Sekunden")
+    print(f"✅ Google Vision Antwort erhalten! Verarbeitungszeit: {duration:.2f} Sekunden")
 
     return result.document, duration
 
 def get_table_data(rows: Sequence[documentai.Document.Page.Table.TableRow], text: str) -> List[List[str]]:
-    """Extrahiert Tabellen-Daten aus den erkannten OCR-Elementen."""
     table_data = []
     for table_row in rows:
         current_row = []
@@ -55,20 +54,17 @@ def get_table_data(rows: Sequence[documentai.Document.Page.Table.TableRow], text
     return table_data
 
 def layout_to_text(layout: documentai.Document.Page.Layout, text: str) -> str:
-    """Konvertiert die von Google Document AI erkannten Text-Offsets in tatsächlichen Text."""
     return "".join(
         text[int(segment.start_index): int(segment.end_index)]
         for segment in layout.text_anchor.text_segments
     )
 
 def extract_tables(project_id: str, location: str, processor_id: str, file_path: str, mime_type: str):
-    """Verarbeitet eine PDF-Datei mit Google Vision und misst die Gesamtverarbeitungszeit."""
     output_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", ".json")
     output_name = os.path.join("outputs", output_name)
 
     total_start_time = time.time()  
 
-    
     document, processing_time = online_process(project_id, location, processor_id, file_path, mime_type)
 
     extracted_data = {
@@ -99,18 +95,55 @@ def extract_tables(project_id: str, location: str, processor_id: str, file_path:
 
     extracted_data["total_processing_time_sec"] = total_duration  
 
-    print(f"Google Vision fertig! Gesamtzeit: {total_duration:.2f} Sekunden")
+    print(f"Google Vision fertig Gesamtzeit: {total_duration:.2f} Sekunden")
     return extracted_data, output_name
 
-def run_google_vision(file_path):
-    data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, file_path, MIME_TYPE)
+def image_to_pdf(image_path):
+    try:
+        with Image.open(image_path) as img:
+            pdf_path = image_path.replace(".png", ".pdf")
+            img.convert("RGB").save(pdf_path, "PDF", resolution=100.0)
+            return pdf_path
+    except Exception as e:
+        return e
 
+def run_vision(file_path):
+    data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, file_path, MIME_TYPE)
     with open(output_name, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+def run_vision_with_noise(file_path):
+    output_folder = modules.constants.temp_dir
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    output_name = "google_vision_" + file_path.split("\\")[-1].replace(".pdf", "_noise.json")
+    output_name = os.path.join("outputs", output_name)    
+
+    images = pdf2image.convert_from_path(file_path)
+    image_paths = []
+
+    for i, img in enumerate(images):
+        image_path = os.path.join(output_folder, f"page{i+1}.png")
+        img.save(image_path, "PNG")
+        image_paths.append(image_path)
+
+    total_time = 0
+
+    for image_path in image_paths:
+        noise_file_path = modules.helpers.add_noise_to_image(image_path)
+        pdf_path = image_to_pdf(noise_file_path)
+
+        data, no = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, pdf_path, MIME_TYPE)
+
+        # Aktualisiere die Gesamtzeit
+        total_time += data.get("total_processing_time_sec", 0)
+
+        with open(output_name, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+    print(f"🔄 Verrauschte Bilder verarbeitet - Gesamtzeit: {total_time:.2f} Sekunden")
 
 if __name__ == "__main__":
     FILE_PATH = r'testfiles\output_page_6.pdf'
-    data, output_name = extract_tables(PROJECT_ID, LOCATION, PROCESSOR_ID, FILE_PATH, MIME_TYPE)
-
-    with open(output_name, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    run_vision_with_noise(FILE_PATH)

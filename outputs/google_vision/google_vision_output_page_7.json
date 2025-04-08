@@ -1,0 +1,83 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät: Dann bro\nGleitzeit\nName:\nSogtürk\nVorname: Isa\nPersonalnr.: 4209669\nUrlaubsjahr: 2025\nZusatzurlaub f. Schwerbeh.: о\nGesamturlaub\"); 30\nvom\nbis\nbeantragte\nTage\nRest-\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\n01.03.2024 18.03.2024 72\n478\nbox\ntof\n8\nLe of\n760\n7/4\n12-\nJuh\n06.05.2014 17.05.2014 10\n08.06.2009.06.2024 2\n20.08.2024 25.08.2024 3\nWh\nDV\n6th\nух\n6\n3\nJA\nM\n08.09.2014 77.09.207 2\nAffa\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 5,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "01.03.2024",
+                    "18.03.2024",
+                    "72",
+                    "478",
+                    "760",
+                    "box",
+                    "tof"
+                ],
+                [
+                    "06.05.2014",
+                    "17.05.2014",
+                    "10",
+                    "8",
+                    "7/4",
+                    "Le of",
+                    "Wh\n6th"
+                ],
+                [
+                    "08.06.2009.06.2024",
+                    "",
+                    "2",
+                    "6",
+                    "12-",
+                    "DV",
+                    "ух"
+                ],
+                [
+                    "20.08.2024",
+                    "25.08.2024",
+                    "3",
+                    "3",
+                    "Juh",
+                    "JA",
+                    "M"
+                ],
+                [
+                    "08.09.2014",
+                    "77.09.207",
+                    "2",
+                    "",
+                    "",
+                    "Affa",
+                    ""
+                ]
+            ]
+        },
+        {
+            "page_number": 1,
+            "table_index": 1,
+            "num_columns": 2,
+            "num_rows": 0,
+            "headers": [
+                [
+                    "Bereich/Fakultät: Urlaubsjahr:",
+                    "Dann bro\n2025"
+                ]
+            ],
+            "rows": []
+        }
+    ],
+    "total_processing_time_sec": 6.438237905502319
+}

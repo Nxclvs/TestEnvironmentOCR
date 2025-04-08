@@ -1,0 +1,74 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nTechnik Gleitzeit\nBereich/Fakultät:\nName:\nUrlaubsjahr:\n2024\nHans Dieter\nVorname: Schmidt\nPersonalnr.: 36897126\nZusatzurlaub f Schwerbeh\nGesamturlaub\":\n30\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n14.7.24 21.7.24\n8\n22\n08.08.2024 0.09.2024\n1\n21\nH Schmitt\nT\nH Emil Bil\nH.\nEal\n4H \nSchont\nto Lith\nD. Müller\nD. Müller\nD.Milles\nDMilles\n02.09.2024 10.03.2024\n13 4\n8\nSchrit\n23.12.2024 31.12.2024 9\n4\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "14.7.24",
+                    "21.7.24",
+                    "8",
+                    "22",
+                    "H Schmitt",
+                    "T",
+                    "D. Müller"
+                ],
+                [
+                    "08.08.2024",
+                    "0.09.2024",
+                    "1",
+                    "21",
+                    "H Emil",
+                    "Bil",
+                    "D. Müller"
+                ],
+                [
+                    "02.09.2024",
+                    "10.03.2024",
+                    "8",
+                    "13",
+                    "H.\n44\nSchrit",
+                    "Eal",
+                    "D.Milles"
+                ],
+                [
+                    "23.12.2024",
+                    "31.12.2024",
+                    "9",
+                    "4",
+                    "H \nSchont",
+                    "to Lith",
+                    "DMilles"
+                ]
+            ]
+        },
+        {
+            "page_number": 1,
+            "table_index": 1,
+            "num_columns": 2,
+            "num_rows": 0,
+            "headers": [
+                [
+                    "Bereich/Fakultät:\nUrlaubsjahr:",
+                    "Technik 2024"
+                ]
+            ],
+            "rows": []
+        }
+    ],
+    "total_processing_time_sec": 9.358918905258179
+}

@@ -1,0 +1,70 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultat: DTAG\n☑ Gleitzeit\nName: Zekiri\nUrlaubsjahr: 2024\nVorname: John\nZusatzurlaub f. Schwerbeh.:\nPersonalnr.: 011011\nGesamturlaub\": 30\nRest\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n01.01.2024 10.01.2014 10.\n20\nZekiri\nSurf\n01.02.202 10.02.2014 10\n10\nZekici\n16.10.202 21.10.2006 5\nJelo\nJach\nLab\nJo\n5\nZekin\nSav\nSear\nGar\n01.01.2018 10.01.25 10.\n10\nTekini\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 5,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "01.01.2024",
+                    "10.01.2014",
+                    "10.",
+                    "20",
+                    "Zekiri",
+                    "Jelo",
+                    "Surf"
+                ],
+                [
+                    "01.02.202",
+                    "10.02.2014",
+                    "10",
+                    "10",
+                    "Zekici",
+                    "Jach",
+                    "Sav"
+                ],
+                [
+                    "16.10.202",
+                    "21.10.2006",
+                    "5",
+                    "5",
+                    "Zekin",
+                    "Lab",
+                    "Sear"
+                ],
+                [
+                    "01.01.2018",
+                    "10.01.25",
+                    "10.",
+                    "10",
+                    "Tekini",
+                    "Jo",
+                    "Gar"
+                ],
+                [
+                    "",
+                    "Der",
+                    "Urlaub",
+                    "soll",
+                    "grundsätzlich im laufenden",
+                    "Kalenderjahr,",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 7.595330715179443
+}

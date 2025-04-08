@@ -1,0 +1,77 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät: DTAG\n☑ Gleitzeit\nName: Zekiri\nUrlaubsjahr: 2024\nVorname: John\nZusatzurlaub f. Schwerbeh.:\nPersonalnr.: 011011\nGesamturlaub¹: 30\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n01.01.2024 10.01.2024 10\n20\nZekiri\n01.02.2024 10.02.2014 10\n10\nZekiri\nJulo\nJash\nLab\nJaw\nSury\nsar\nSear\nGew\n16.10.2024 21.10.2026 5\n01.01.2015 10.01.25\n10\n5\nZekiri\n10\nZekici\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "01.01.2024",
+                    "10.01.2024",
+                    "10",
+                    "20",
+                    "Zekiri",
+                    "Julo",
+                    "Sury"
+                ],
+                [
+                    "01.02.2024",
+                    "10.02.2014",
+                    "10",
+                    "10",
+                    "Zekiri",
+                    "Jash",
+                    "sar"
+                ],
+                [
+                    "16.10.2024",
+                    "21.10.2026",
+                    "5",
+                    "5",
+                    "Zekiri",
+                    "Lab",
+                    "Sear"
+                ],
+                [
+                    "01.01.2015",
+                    "10.01.25",
+                    "10",
+                    "10",
+                    "Zekici",
+                    "Jaw",
+                    "Gew"
+                ]
+            ]
+        },
+        {
+            "page_number": 1,
+            "table_index": 1,
+            "num_columns": 1,
+            "num_rows": 1,
+            "headers": [
+                [
+                    "Bereich/Fakultät: DTAG"
+                ]
+            ],
+            "rows": [
+                [
+                    "Urlaubsjahr: 2024"
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 6.137694358825684
+}

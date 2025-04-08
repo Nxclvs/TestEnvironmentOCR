@@ -1,0 +1,61 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät: M\n☑ Gleitzeit\nUrlaubsjahr: 2027\nName: Muller\nVorname: Debora\nPersonalnr.: 0765320\nZusatzurlaub f. Schwerbeh.: nein\nGesamturlaub¹: 40 Tage\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n30 пики хрес\n10.12.27 20.12.2027 10\n13.11.27 23.11.2017 10 20 K\n01.02.2027 13.11.2017 13 7 50 Cd Dah\n02.01.2017 09.04.2017 7 0\nD.Mre\n100\nイ\n☑\nги клипе\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "10.12.27",
+                    "20.12.2027",
+                    "10",
+                    "30",
+                    "пики",
+                    "хрес",
+                    "D.Mre"
+                ],
+                [
+                    "13.11.27",
+                    "23.11.2017",
+                    "10",
+                    "20",
+                    "",
+                    "K",
+                    "100\nイ"
+                ],
+                [
+                    "01.02.2027",
+                    "13.11.2017",
+                    "13",
+                    "7",
+                    "50",
+                    "Cd Dah",
+                    "☑"
+                ],
+                [
+                    "02.01.2017",
+                    "09.04.2017",
+                    "7",
+                    "0",
+                    "",
+                    "ги",
+                    "клипе"
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 6.557748556137085
+}

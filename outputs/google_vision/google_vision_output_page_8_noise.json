@@ -1,0 +1,61 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät: Technik\nGleitzeit\nName:\nSchneider\nUrlaubsjahr:\n2024\nVorname: Gerhard\nZusatzurlaub f, Schwerbeh.:\nPersonalnr.:\n73\nGesamturlaub\":\n30\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n02.11.2001.42.2024\n7\n23\nBo\nseny\nSu\nhin\n07.07.2010 07.08.2010 30\nO\nBe\nsony\n08.10.2008 10.10.2017\n2\n28\nher.\nBo\nBa\nдонк\n02.03.2023 02.04.2013.\n30\nO\nkw\nSeury\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "befürwortet",
+                    "genehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "02.11.2001.42.2024",
+                    "",
+                    "7",
+                    "23",
+                    "Su",
+                    "Bo",
+                    "seny"
+                ],
+                [
+                    "07.07.2010",
+                    "07.08.2010",
+                    "30",
+                    "O",
+                    "hin",
+                    "Be",
+                    "sony"
+                ],
+                [
+                    "08.10.2008",
+                    "10.10.2017",
+                    "2",
+                    "28",
+                    "her.",
+                    "Bo",
+                    "донк"
+                ],
+                [
+                    "02.03.2023",
+                    "02.04.2013.",
+                    "30",
+                    "O",
+                    "kw",
+                    "Ba",
+                    "Seury"
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 8.311344861984253
+}

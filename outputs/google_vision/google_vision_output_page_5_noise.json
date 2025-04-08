@@ -1,0 +1,61 @@
+{
+    "full_text": "Stand: 01/2023\n1. URLAUBSANTRAG\nBereich/Fakultät: Betabots Gleitzeit\n2027\nUrlaubsjahr:\nName: Leekes\nVorname: Yannik Luca\nPersonalnr.: 012345\n5\nZusatzurlaub f. Schwerbeh.:\nGesamturlaub\":\n30\nRest-\nvom\nbis\nbeantragte\nTage\nAntragsteller(in)\nbefürwortet\ngenehmigt\nTage\n01.01 11.01\n10.\n20\nY Seely\n01.04.04 4\n16.\nYleekes Chef\nY Leelles ef\nS V.feeles Chef\nY.feekes Chef\n01.10 11.10 11\n01.12 051) 5\nY. Recep\nYleey\nY\n0\nDer Urlaub soll grundsätzlich im laufenden Kalenderjahr,\nspätestens jedoch bis zum 30.09. des Folgejahres genommen werden.\n",
+    "tables": [
+        {
+            "page_number": 1,
+            "table_index": 0,
+            "num_columns": 7,
+            "num_rows": 4,
+            "headers": [
+                [
+                    "vom",
+                    "bis",
+                    "beantragte\nTage",
+                    "Rest-\nTage",
+                    "Antragsteller(in)",
+                    "Gesamturlaub\":\nbefürwortet",
+                    "30\ngenehmigt"
+                ]
+            ],
+            "rows": [
+                [
+                    "01.01",
+                    "11.01",
+                    "10.",
+                    "20",
+                    "Yleekes",
+                    "Chef",
+                    "Y Seely"
+                ],
+                [
+                    "01.04.04",
+                    "",
+                    "4",
+                    "16.",
+                    "Y Leelles",
+                    "ef",
+                    "Y. Recep"
+                ],
+                [
+                    "01.10",
+                    "11.10",
+                    "11",
+                    "S",
+                    "V.feeles",
+                    "Chef",
+                    "Yleey"
+                ],
+                [
+                    "01.12",
+                    "051)",
+                    "5",
+                    "0",
+                    "Y.feekes",
+                    "Chef",
+                    "Y"
+                ]
+            ]
+        }
+    ],
+    "total_processing_time_sec": 7.816021680831909
+}
