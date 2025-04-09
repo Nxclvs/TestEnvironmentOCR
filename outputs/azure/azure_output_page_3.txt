@@ -1,3 +1,4 @@
+📄 Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
@@ -6,12 +7,12 @@ Vorname:
 Schmidt
 Personalnr .:
 36897126
-Bereich/Fakultät: Technik
-Gleitzeit
+Bereich/Fakultät:
+Technik :unselected: Gleitzeit
 Urlaubsjahr:
 2024
 Zusatzurlaub f. Schwerbeh .:
-Gesamturlaub1:
+Gesamturlaub1):
 30
 vom
 bis
@@ -24,14 +25,14 @@ genehmigt
 21.7.24
 8
 22
-H. Schnitt
-6.300
+H. Schnell
+6. Be
 D. Müller
 08.08.2024
 09.08.2024
 1
 21
-H Smil
+H Camill
 1 Bila
 D. Müller
 02.09.2024
@@ -39,13 +40,58 @@ D. Müller
 8
 13
 H Splint
+A Bil
 D. Miller
 23.12.2024
 31.12.2024
 9
 4
-Ht. Sphant
-A. Bill
+H. Sphant
+1. Bill
 D Müller
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 1.81 Sekunden ---
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Bereich/Fakultät:	Technik :unselected: Gleitzeit
+Urlaubsjahr:	2024
+Zusatzurlaub f. Schwerbeh .:
+Gesamturlaub1):		30
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+14.7.24	21.7.24	8	22	H. Schnell	6. Be	D. Müller
+08.08.2024	09.08.2024	1	21	H Camill	1 Bila	D. Müller
+02.09.2024	10.09.2024	8	13	H Splint	A Bil	D. Miller
+23.12.2024	31.12.2024	9	4	H. Sphant	1. Bill	D Müller
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 29.73 Sekunden ---

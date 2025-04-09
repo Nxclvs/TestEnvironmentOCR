@@ -1,21 +1,25 @@
+
+=== Seite 1 ===
+ Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Hans Dieter
+Bereich/Fakultät:
+Technik :unselected:
+Gleitzeit
 Vorname:
 Schmidt
 Personalnr .:
 36897126
-Bereich/Fakultät: Technik
-Gleitzeit
 Urlaubsjahr:
 2024
-Zusatzurlaub f Schwerbeh :
-Gesamturlaub1:
+Zusatzurlaub f. Schwerbeh .:
+Gesamturlaub":
 30
 vom
 bis
-beantragle Tage
+beantragte Tage
 Rest Tage
 Antragsteller(in)
 befürwortet
@@ -24,27 +28,74 @@ genehmigt
 21.7.24
 8
 22
-6. Br
+H Schmitt
+6 . Be
 D. Müller
 08.08.2024
-05.09.2024
+08.08.2024
 1
 21
+H Somill
+1 Riba
 D. Müller
 02.02.2024
 10.09.2024
 8
 13
-bil
+I Salut
+A Bil
 D. Miller
 23.12.2024
 31.12.2024
 9
 4
-Ht. Schaut
-1. Riss
-D Miller
+H. Sphant
+A. Riss
+D Müller
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Verarbeitungszeit für Bild: 41.01 Sekunden ---
 
---- Gesamtverarbeitungszeit: 41.01 Sekunden ---
+📋 Tabellen:
+
+--- Tabelle 1 ---
+	Urlaubsjahr:			2024
+	Zusatzurlaub f. Schwerbeh .:
+Gesamturlaub":				30
+			
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest Tage	Antragsteller(in)	befürwortet	genehmigt
+14.7.24	21.7.24	8	22	H Schmitt	6 . Be	D. Müller
+08.08.2024	08.08.2024	1	21	H Somill	1 Riba	D. Müller
+02.02.2024	10.09.2024	8	13	I Salut	A Bil	D. Miller
+23.12.2024	31.12.2024	9	4	H. Sphant	A. Riss	D Müller
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+ Verarbeitungszeit für Seite: 9.26 Sekunden
+
+ Gesamtverarbeitungszeit für verrauschte Bilder: 9.26 Sekunden ---

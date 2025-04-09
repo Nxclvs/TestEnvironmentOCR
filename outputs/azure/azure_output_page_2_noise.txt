@@ -1,22 +1,25 @@
+
+=== Seite 1 ===
+ Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Schwarz
 Vorname:
-Dennil
+Dannil
 Personalnr .:
-0787593296
-Bereich/Fakultät: DIAG X Gleitzeit
-Urlaubsjahr:
-2025.
-Zusatzurlaub f, Schwerbeh .:
+0787593246
+Bereich/Fakultät: DTAG :selected:
+Urlaubsjahr: 2025.
+Zusatzurlaub f. Schwerbeh,
 Nein
-Gesamturlaub !:
+Gesamturlaub":
 44
+Gleitzeit
 vom
 bis
 beantragte Tage
-Rest- Tage
+Rest Tage
 Antragsteller(in)
 befürwortet
 genehmigt
@@ -24,12 +27,60 @@ genehmigt
 76.08
 5
 39
+awwww
+pannello
+wwww
 73.72
 37.72
 75
 0
-Alman
+Arma
+down
+semin
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Verarbeitungszeit für Bild: 2.11 Sekunden ---
 
---- Gesamtverarbeitungszeit: 2.11 Sekunden ---
+📋 Tabellen:
+
+--- Tabelle 1 ---
+	Bereich/Fakultät: DTAG :selected:
+	Urlaubsjahr: 2025.
+	Zusatzurlaub f. Schwerbeh,	Nein
+	Gesamturlaub":	44
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest Tage	Antragsteller(in)	befürwortet	genehmigt
+09.08	76.08	5	39	awwww	pannello	wwww
+73.72	37.72	75	0	Arma	down	semin
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+ Verarbeitungszeit für Seite: 9.50 Sekunden
+
+ Gesamtverarbeitungszeit für verrauschte Bilder: 9.50 Sekunden ---

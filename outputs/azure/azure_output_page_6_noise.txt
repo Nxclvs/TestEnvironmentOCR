@@ -1,19 +1,25 @@
+
+=== Seite 1 ===
+ Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Zekiri
-Vorname: John
-Personalnr .: 011011
+Vorname:
+John
+Personalnr .:
+011011
 Bereich/Fakultät:
 DTAG
-Gleitzeit
-Urlaubsjahr: 2024
+Urlaubsjahr:
+2024
 Zusatzurlaub f. Schwerbeh .:
-Gesamturlaub1: 30
+Gesamturlaub"):
+30 :selected: Gleitzeit
 vom
 bis
 beantragte Tage
-Rest Tage
+Rest- Tage
 Antragsteller(in)
 befürwortet
 genehmigt
@@ -22,20 +28,72 @@ genehmigt
 10
 20
 Zekiri
-01.02.2020
-10.02.2024 10
+Jela
+01.02.2024
+10.02.2024
+10
 10
 Zekiri
-Sar
-16.10.2024 21.10.2026
+Jak
+Saw
+16.10.2024
+21.10.2026
 5
 5
 Zekiri
-01.01.2025 10.01.25
+1 mb
+Suur
+01.01.2015
+10.01.25
 10
 10
 Zekin.
+Ja
+Gar
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Verarbeitungszeit für Bild: 37.95 Sekunden ---
 
---- Gesamtverarbeitungszeit: 37.95 Sekunden ---
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Bereich/Fakultät:	DTAG
+	Urlaubsjahr:	2024
+	Zusatzurlaub f. Schwerbeh .:
+Gesamturlaub"):	30
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+01.01.2024	10.01.2024	10	20	Zekiri	Jela	
+01.02.2024	10.02.2024	10	10	Zekiri	Jak	Saw
+16.10.2024	21.10.2026	5	5	Zekiri	1 mb	Suur
+01.01.2015	10.01.25	10	10	Zekin.	Ja	Gar
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+ Verarbeitungszeit für Seite: 34.25 Sekunden
+
+ Gesamtverarbeitungszeit für verrauschte Bilder: 34.25 Sekunden ---

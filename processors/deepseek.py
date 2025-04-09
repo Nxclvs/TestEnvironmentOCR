@@ -25,7 +25,7 @@ if __name__ =="__main__":
     while True:
         output = input("Gib den JSON-Block ein: ")
         page_num = input("Gib die Seitennummer ein: ")
-
+        
         output_path = os.path.join("outputs", f"deepseek_output_page_{page_num}.json")
 
         parsed_data = extract_json(output)

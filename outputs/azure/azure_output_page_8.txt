@@ -1,15 +1,17 @@
+📄 Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Schneider
-Urlaubsjahr:
-2024
 Vorname:
 Gerhard
+Personalnr .: 73
+Bereich/Fakultät:
+Technik :unselected: Gleitzeit
+Urlaubsjahr:
+2024
 Zusatzurlaub f. Schwerbeh,:
-Personalnr .:
-73
-Gesamturlaub1):
+Gesamturlaub11;
 30
 vom
 bis
@@ -22,27 +24,77 @@ genehmigt
 01.12.2024
 7
 23
+Sw
 Boa
 Server
 07.07.2010
 07.08.2010
 30
 0
+Lun
 Bo
 song
-08.10.2006
+08.10.2000
 10.10.2017
 2
 28
+fre
 Bo
 Sony
-02.03.2020
-02.04.2023
+02.03.2023
+02.04.2020
 30
 0
+Ru
 Ba
-sang
+samy
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
-Bereich/Fakultät: Technik
-Gleitzeit
---- Gesamtverarbeitungszeit: 1.77 Sekunden ---
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Name:	Schneider
+Vorname:	Gerhard
+Personalnr .: 73
+
+--- Tabelle 2 ---
+Urlaubsjahr:	2024
+Zusatzurlaub f. Schwerbeh,:
+Gesamturlaub11;	30
+
+--- Tabelle 3 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+02.11.2020	01.12.2024	7	23	Sw	Boa	Server
+07.07.2010	07.08.2010	30	0	Lun	Bo	song
+08.10.2000	10.10.2017	2	28	fre	Bo	Sony
+02.03.2023	02.04.2020	30	0	Ru	Ba	samy
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 9.71 Sekunden ---

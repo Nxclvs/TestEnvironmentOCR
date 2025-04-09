@@ -1,49 +1,92 @@
-Stand: 01/2023
+📄 Volltext:
+Stand; 01/2023
 1. URLAUBSANTRAG
 Name:
 Alles
+Bereich/Fakultät:
+Telekom :selected:
+Gleitzeit
+Vorname:
+Lösch
+Personalnr .:
+123AB
 Urlaubsjahr:
 2013
-Zusatzurlaub f. Schwerbeh .:
-0
-Gesamturlaub1);
-30
+Zusatzurlaub f. Schwerbeh .: 0
+Gesamturlaub1): 30
 vom
 bis
 beantragte Tage
 Rest- Tage
 Antragsteller(in)
 befürwortet
-genehmigt
+genehmigt :selected:
 02.01.24
 03.01.24
 2
 28
 Ich
-René Zwing
+René Zaring
 01.02.24
 30.02.24
 29
 5
 René
-René Zuing
+René Zring :selected:
 05.02.24
 10.02.24
 5
 2
-René
-Rue Zwinger
-12.12. 24
+Rene
+Rue Zwinger :selected:
+12.12.24
 12.12.24
 1
 0
 Rene
-Rene Zuig
-Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
-Gleitzeit
-Vorname:
-Lösch
-Personalnr .:
-123AB
-Bereich/Fakultät: Telekom
---- Gesamtverarbeitungszeit: 2.92 Sekunden ---
+Reno Zuig :selected:
+Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden. :unselected:
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Urlaubsjahr:	2013
+Zusatzurlaub f. Schwerbeh .: 0
+Gesamturlaub1): 30
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+02.01.24	03.01.24	2	28	Ich	René Zaring	:selected:
+01.02.24	30.02.24	29	5	René	René Zring	:selected:
+05.02.24	10.02.24	5	2	Rene	Rue Zwinger	:selected:
+12.12.24	12.12.24	1	0	Rene	Reno Zuig	:selected:
+						
+						
+						:unselected:
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 5.10 Sekunden ---

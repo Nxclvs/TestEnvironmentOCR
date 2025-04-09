@@ -1,17 +1,18 @@
+📄 Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Leckes
 Vorname:
 Yannik Luca
-Personalnr .: 012345
-Bereich/Fakultät: Betabots
-Gleitzeit
+Personalnr .:
+012345
+Bereich/Fakultät:
+Betabots :unselected: Gleitzeit
 Urlaubsjahr:
 2027
-Zusatzurlaub f. Schwerbeh,:
-5
-Gesamturlaub1):
+Zusatzurlaub f. Schwerbeh .: 5
+Gesamturlaub11;
 30
 vom
 bis
@@ -33,7 +34,7 @@ Y. Jeely
 16
 Y. Leekes
 Chef
-1-Leup
+Y Recep
 01.10
 11.10
 11
@@ -47,6 +48,50 @@ Y-fees
 0
 Y. Lecker
 Chef
-%- feel
+%- Lech
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 3.89 Sekunden ---
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Bereich/Fakultät:		Betabots :unselected: Gleitzeit
+Urlaubsjahr:		2027
+Zusatzurlaub f. Schwerbeh .: 5
+Gesamturlaub11;	30
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+01.01	11.01	10	20	Y. Leekes	Chef	Y. Jeely
+01.04.	04.04	4	16	Y. Leekes	Chef	Y Recep
+01.10	11.10	11	5	1-Seches	Chef	Y-fees
+01.12	05.12	5	0	Y. Lecker	Chef	%- Lech
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 6.95 Sekunden ---

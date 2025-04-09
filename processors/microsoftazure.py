@@ -4,7 +4,7 @@ import time  # ⏱ Zeitmodul zum Messen der Laufzeit
 sys.path.append(os.path.dirname(os.path.dirname((__file__))))
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
-from azure.ai.documentintelligence.models import AnalyzeResult
+from azure.ai.documentintelligence.models import AnalyzeResult, DocumentTable
 from localconfig import config
 import modules.helpers
 import modules.constants 
@@ -24,67 +24,116 @@ def image_to_pdf(image_path):
 
 def run_azure(path):
     output_path = os.path.join("outputs", "azure_" + os.path.basename(path).replace("pdf", "txt"))
-    document_intelligence_client = DocumentIntelligenceClient(
-        endpoint=endpoint, credential=AzureKeyCredential(key)
-    )
 
-    with open(path, "rb") as file:  
+    client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+
+    with open(path, "rb") as file:
         file_data = file.read()
 
     print(f"📤 Sende Dokument an Azure: {path}")
-    start_time = time.time()  
+    start_time = time.time()
 
-    poller = document_intelligence_client.begin_analyze_document(
-        "prebuilt-read", content_type="application/octet-stream", body=file_data
+    poller = client.begin_analyze_document(
+        "prebuilt-layout",
+        content_type="application/pdf",
+        body=file_data
     )
-    result: AnalyzeResult = poller.result()
 
-    duration = time.time() - start_time  
-    print(f"✅ Azure Antwort erhalten! Verarbeitungszeit: {duration:.2f} Sekunden")
+    result: AnalyzeResult = poller.result()
+    duration = time.time() - start_time
+    print(f"Azure Antwort erhalten Verarbeitungszeit: {duration:.2f} Sekunden")
 
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(str(result.content))
-        f.write(f"\n--- Gesamtverarbeitungszeit: {duration:.2f} Sekunden ---")
-    print(f"✅ Ergebnis gespeichert: {output_path}")
+        f.write("📄 Volltext:\n")
+        f.write(result.content or "")
+        f.write("\n\n📋 Tabellen:\n")
+
+        for i, table in enumerate(result.tables):
+            f.write(f"\n--- Tabelle {i + 1} ---\n")
+            
+            current_row = -1
+            row_cells = []
+
+            for cell in sorted(table.cells, key=lambda c: (c.row_index, c.column_index)):
+                if cell.row_index != current_row:
+                    if row_cells:
+                        f.write("\t".join(row_cells) + "\n")
+                    row_cells = []
+                    current_row = cell.row_index
+                row_cells.append(cell.content.strip())
+
+            if row_cells:
+                f.write("\t".join(row_cells) + "\n")
+
+        f.write(f"\n\n Gesamtverarbeitungszeit: {duration:.2f} Sekunden ---")
+
+    print(f"Ergebnis gespeichert: {output_path}")
+
 
 def run_azure_with_noise(path):
-    """Führt die Azure-Dokumentanalyse mit verrauschten Bildern durch."""
     output_path = os.path.join("outputs", "azure_" + os.path.basename(path).replace(".pdf", "_noise.txt"))
-    document_intelligence_client = DocumentIntelligenceClient(
-        endpoint=endpoint, credential=AzureKeyCredential(key)
-    )
 
-    paths = modules.helpers.pdf_to_image(path)
-    res = ""
-    total_time = 0  
+    client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+    image_paths = modules.helpers.pdf_to_image(path)
 
-    for image in paths:
-        noisy_image_path = modules.helpers.add_noise_to_image(image)
+    total_time = 0
+    full_output = ""
+
+    for idx, image_path in enumerate(image_paths):
+        noisy_image_path = modules.helpers.add_noise_to_image(image_path)
         pdf_path = image_to_pdf(noisy_image_path)
 
         with open(pdf_path, "rb") as file:
             file_data = file.read()
 
-        print(f"📤 Sende verrauschtes Bild an Azure: {noisy_image_path}")
-        start_time = time.time()  
+        print(f" Sende verrauschtes Bild an Azure: {noisy_image_path}")
+        start_time = time.time()
 
-        poller = document_intelligence_client.begin_analyze_document(
-            "prebuilt-read", content_type="application/octet-stream", body=file_data
+        poller = client.begin_analyze_document(
+            "prebuilt-layout",
+            content_type="application/pdf",
+            body=file_data
         )
         result: AnalyzeResult = poller.result()
 
-        duration = time.time() - start_time  
-        print(f"✅ Azure Antwort erhalten! Verarbeitungszeit: {duration:.2f} Sekunden")
-        total_time += duration  
+        duration = time.time() - start_time
+        total_time += duration
+        print(f"Azure Antwort erhalten für Seite {idx + 1} Dauer: {duration:.2f} Sekunden")
 
-        res += str(result.content) + f"\n--- Verarbeitungszeit für Bild: {duration:.2f} Sekunden ---\n"
+        # Ergebnis zusammenbauen
+        page_output = f"\n=== Seite {idx + 1} ===\n"
+        page_output += " Volltext:\n"
+        page_output += result.content or ""
+        page_output += "\n\n📋 Tabellen:\n"
 
-    res += f"\n--- Gesamtverarbeitungszeit: {total_time:.2f} Sekunden ---"
+        for i, table in enumerate(result.tables):
+            page_output += f"\n--- Tabelle {i + 1} ---\n"
+            current_row = -1
+            row_cells = []
+
+            for cell in sorted(table.cells, key=lambda c: (c.row_index, c.column_index)):
+                if cell.row_index != current_row:
+                    if row_cells:
+                        page_output += "\t".join(row_cells) + "\n"
+                    row_cells = []
+                    current_row = cell.row_index
+                row_cells.append(cell.content.strip())
+
+            if row_cells:
+                page_output += "\t".join(row_cells) + "\n"
+
+        page_output += f"\n Verarbeitungszeit für Seite: {duration:.2f} Sekunden\n"
+        full_output += page_output
+
+    full_output += f"\n Gesamtverarbeitungszeit für verrauschte Bilder: {total_time:.2f} Sekunden ---"
+
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(res)
+        f.write(full_output)
 
-    print(f"✅ Verrauschte Bilder verarbeitet und gespeichert: {output_path}")
+    print(f"Ergebnis gespeichert: {output_path}")
+
 
 if __name__ == "__main__":
     PATH = r'testfiles\output_page_6.pdf'
+    run_azure(PATH)
     run_azure_with_noise(PATH)

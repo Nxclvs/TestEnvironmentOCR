@@ -1,20 +1,25 @@
+
+=== Seite 1 ===
+ Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Alles
+Vorname:
+Lösch
+Personalnr .: 123AB
+Bereich/Fakultät: Telekom :selected: Gleitzeit
 Urlaubsjahr:
 2013
-Zusatzurlaub f. Schwerbeh .:
-0
-Gesamturlaub !:
-20
+Zusatzurlaub f. Schwerbeh .: 0
+Gesamturlaub !: 30
 vom
 bis
 beantragte Tage
 Rest Tage
 Antragsteller(in)
 befürwortet
-genehmigt
+genehmigt :selected:
 02.01.24
 03.01.24
 2
@@ -22,30 +27,71 @@ genehmigt
 Ich
 René Zwing
 01.02.24
-30. 02.24
+30.02.24
 29
 5
-Rene
-Rene Zring
+René
+Rene Zring :selected:
 05.02.24
-10. 02.24
+10.02.24
 5
 2
 Rene
-René Zwing
-12.12.24
+Rune Zwings :selected:
+12.12. 24
 12.12.24
 1
 0
 Rene
-Rene Zuiz
+Rene Zuig :selected:
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
-Gleitzeit
-Vorname:
-Lösch
-Personalnr .:
-123AB
-Bereich/Fakultät: Telekom
---- Verarbeitungszeit für Bild: 3.11 Sekunden ---
 
---- Gesamtverarbeitungszeit: 3.11 Sekunden ---
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Name:	Alles
+Vorname:	Lösch
+Personalnr	.: 123AB
+
+--- Tabelle 2 ---
+	Urlaubsjahr:	2013
+	Zusatzurlaub f. Schwerbeh .: 0
+Gesamturlaub !: 30
+
+--- Tabelle 3 ---
+vom	bis	beantragte Tage	Rest Tage	Antragsteller(in)	befürwortet	genehmigt
+02.01.24	03.01.24	2	28	Ich	René Zwing	:selected:
+01.02.24	30.02.24	29	5	René	Rene Zring	:selected:
+05.02.24	10.02.24	5	2	Rene	Rune Zwings	:selected:
+12.12. 24	12.12.24	1	0	Rene	Rene Zuig	:selected:
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+ Verarbeitungszeit für Seite: 5.88 Sekunden
+
+ Gesamtverarbeitungszeit für verrauschte Bilder: 5.88 Sekunden ---

@@ -1,16 +1,19 @@
+📄 Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
-Sostürk
+Sogtürk
+Bereich/Fakultät:
+Dann bro :selected:
+Gleitzeit
+Vorname:
+Isa
+Personalnr .:
+4209669
 Urlaubsjahr:
 2025
-Personalnr .: 4209669
-Bereich/Fakultät: Dann bro
-Gleitzeit
-Vorname: Isa
-Zusatzurlaub f. Schwerbeh,:
-0
-Gesamturlaub1):
+Zusatzurlaub f. Schwerbeh,: 0
+Gesamturlaub1);
 30
 vom
 bis
@@ -19,27 +22,82 @@ Rest- Tage
 Antragsteller(in)
 befürwortet
 genehmigt 1
-01.03.2020
+01.03.2024
 18.03.2024
-72
-48
-7. 5D
+12
+18
+7. 500
+6.5
+tilf.
 06.05.2021
-17.05. 2024
+17.05.2024
 10
 8
 7.LA
+Lef
+6h
 08.06.2020
 09.06.2020
 2
 6
+6.19
+IF
+18
 20.08.2020
 25.08.2024
 3
 3
+JE
+Is
+2
 08.09.2014
 11.09.2020
 2
 1
+1 047
+of
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 5.10 Sekunden ---
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Urlaubsjahr:	2025
+Zusatzurlaub f.	Schwerbeh,: 0
+Gesamturlaub1);	30
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt 1
+01.03.2024	18.03.2024	12	18	7. 500	6.5	tilf.
+06.05.2021	17.05.2024	10	8	7.LA	Lef	6h
+08.06.2020	09.06.2020	2	6	6.19	IF	18
+20.08.2020	25.08.2024	3	3	JE	Is	2
+08.09.2014	11.09.2020	2	1	1 047	of	
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 5.72 Sekunden ---

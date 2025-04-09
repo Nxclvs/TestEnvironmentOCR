@@ -1,16 +1,22 @@
+
+=== Seite 1 ===
+ Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Müller
-Urlaubsjahr:
-2027
 Vorname:
 Debora
-Zusatzurlaub f. Schwerbeh .:
-nein
 Personalnr .:
-0765370
-Gesamturlaub11: 40 Tage
+0765570
+Bereich/Fakultät:
+FM :selected:
+Urlaubsjahr:
+2027
+Zusatzurlaub f. Schwerbeh .: nein
+Gesamturlaub1);
+40 Tage
+Gleitzeit
 vom
 bis
 beantragte Tage
@@ -22,24 +28,73 @@ genehmigt
 20.12.2027
 10
 30
-D. MrDe
+Dunn
+Gal
+D. Mroe
 13.11.27
 23.11.2017
 10
 20
-sale
-1
-01.02.2027 13.11.2027
+JAle
+KA
+01.02.2027
+13.11.2017
 13
 7
+BAO
 Od Doli
 X
-02.01.2017 09.01.2017
+02.01.2027
+09.01.2017
 7
 0
-Bereich/Fakultät: FM
-Gleitzeit
+$20
+Nu
+* there
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Verarbeitungszeit für Bild: 2.04 Sekunden ---
 
---- Gesamtverarbeitungszeit: 2.04 Sekunden ---
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Bereich/Fakultät:	FM :selected:
+Urlaubsjahr:	2027
+Zusatzurlaub f. Schwerbeh .: nein
+Gesamturlaub1);	40 Tage
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+10.12.27	20.12.2027	10	30	Dunn	Gal	D. Mroe
+13.11.27	23.11.2017	10	20	JAle	KA	
+01.02.2027	13.11.2017	13	7	BAO	Od Doli	X
+02.01.2027	09.01.2017	7	0	$20	Nu	* there
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+ Verarbeitungszeit für Seite: 7.43 Sekunden
+
+ Gesamtverarbeitungszeit für verrauschte Bilder: 7.43 Sekunden ---

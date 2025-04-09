@@ -1,19 +1,18 @@
+📄 Volltext:
 Stand: 01/2023
 1. URLAUBSANTRAG
 Name:
 Schwarz
-Urlaubsjahr:
-2025.
-Personalnr .:
-0787593246
-Bereich/Fakultät: OTAC
-Gleitzeit
 Vorname:
 Dannil
-Zusatzurlaub f. Schwerbeh .:
-Nein
+Personalnr .:
+0787593246
+Bereich/Fakultät: DTAG :selected:
+Urlaubsjahr: 2025.
+Zusatzurlaub f. Schwerbeh .: Nein
 Gesamturlaub1):
 44
+Gleitzeit
 vom
 bis
 beantragte Tage
@@ -25,9 +24,59 @@ genehmigt
 76.08
 5
 39
+Jamara
+pannello
+www.
 73.72
 37.72
-15
+75
 0
+Anna
+down
+Alman
 Der Urlaub soll grundsätzlich im laufenden Kalenderjahr, spätestens jedoch bis zum 30.09. des Folgejahres genommen werden.
---- Gesamtverarbeitungszeit: 2.77 Sekunden ---
+
+📋 Tabellen:
+
+--- Tabelle 1 ---
+Bereich/Fakultät: DTAG :selected:
+Urlaubsjahr: 2025.
+Zusatzurlaub f. Schwerbeh	.: Nein
+Gesamturlaub1):	44
+
+--- Tabelle 2 ---
+vom	bis	beantragte Tage	Rest- Tage	Antragsteller(in)	befürwortet	genehmigt
+09.08	76.08	5	39	Jamara	pannello	www.
+73.72	37.72	75	0	Anna	down	Alman
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+ Gesamtverarbeitungszeit: 3.99 Sekunden ---
