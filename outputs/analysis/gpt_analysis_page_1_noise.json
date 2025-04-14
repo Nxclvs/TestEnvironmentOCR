@@ -1,0 +1,139 @@
+{
+    "accuracy": 0.0,
+    "errors": [
+        [
+            "urlaubsantrag",
+            {
+                "name": "Alles",
+                "vorname": "Liesch",
+                "personalnr": "123AB",
+                "bereich_fakultät": "Telekom",
+                "gleitzeit": true,
+                "urlaubsjahr": 2023,
+                "zusatzurlaub_schwerbeh": "0",
+                "gesamturlaub": "30",
+                "einträge": [
+                    {
+                        "vom": "02.01.24",
+                        "bis": "03.01.24",
+                        "beantragte_tage": "2",
+                        "rest_tage": "28",
+                        "antragsteller": "Ich",
+                        "befürwortet": "René Zwing",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "01.07.24",
+                        "bis": "30.07.24",
+                        "beantragte_tage": "24",
+                        "rest_tage": "5",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zwing",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "05.02.24",
+                        "bis": "16.02.24",
+                        "beantragte_tage": "5",
+                        "rest_tage": "2",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zwinge",
+                        "genehmigt": true
+                    },
+                    {
+                        "vom": "11.11.24",
+                        "bis": "12.11.24",
+                        "beantragte_tage": "1",
+                        "rest_tage": "0",
+                        "antragsteller": "René",
+                        "befürwortet": "René Zopf",
+                        "genehmigt": true
+                    }
+                ]
+            },
+            "MISSING"
+        ],
+        [
+            "name",
+            "MISSING",
+            "Alles"
+        ],
+        [
+            "vorname",
+            "MISSING",
+            "Loesch"
+        ],
+        [
+            "personalnr",
+            "MISSING",
+            "123AB"
+        ],
+        [
+            "bereich_fakultaet",
+            "MISSING",
+            "Telekom"
+        ],
+        [
+            "urlaubsjahr",
+            "MISSING",
+            2023
+        ],
+        [
+            "gleitzeit",
+            "MISSING",
+            true
+        ],
+        [
+            "zusatzurlaub_f_schwerbeh",
+            "MISSING",
+            0
+        ],
+        [
+            "gesamturlaub",
+            "MISSING",
+            30
+        ],
+        [
+            "urlaubsantraege",
+            "MISSING",
+            [
+                {
+                    "vom": "02.01.24",
+                    "bis": "03.01.24",
+                    "beantragte_tage": 2,
+                    "resttage": 28,
+                    "antragsteller": "Ich",
+                    "befuerwortet": "René Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "01.02.24",
+                    "bis": "30.02.24",
+                    "beantragte_tage": 29,
+                    "resttage": 5,
+                    "antragsteller": "René",
+                    "befuerwortet": "René Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "05.07.24",
+                    "bis": "16.07.24",
+                    "beantragte_tage": 5,
+                    "resttage": 2,
+                    "antragsteller": "René",
+                    "befuerwortet": "René Zwing",
+                    "genehmigt": true
+                },
+                {
+                    "vom": "11.12.24",
+                    "bis": "12.12.24",
+                    "beantragte_tage": 1,
+                    "resttage": 0,
+                    "antragsteller": "René",
+                    "befuerwortet": "René Zwing",
+                    "genehmigt": true
+                }
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "accuracy": 0.08333333333333333,
+    "errors": [
+        [
+            "name",
+            "Leckes",
+            "Leekes"
+        ],
+        [
+            "personalnr",
+            "042345",
+            "012345"
+        ],
+        [
+            "bereich_fakultat",
+            "Betabüro",
+            "MISSING"
+        ],
+        [
+            "urlaubsjahr",
+            "2023",
+            2027
+        ],
+        [
+            "zusatzurlaub_schwerbeh",
+            "5",
+            "MISSING"
+        ],
+        [
+            "gesamturlaub",
+            "30",
+            30
+        ],
+        [
+            "urlaubsantrage",
+            [
+                {
+                    "vom": "01.01",
+                    "bis": "11.01",
+                    "beantragte_tage": "10",
+                    "resttage": "20",
+                    "antragsteller_in": "Y. Leckes",
+                    "befurwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.04",
+                    "bis": "04.04",
+                    "beantragte_tage": "4",
+                    "resttage": "16",
+                    "antragsteller_in": "Y. Leckes",
+                    "befurwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.10",
+                    "bis": "11.10",
+                    "beantragte_tage": "11",
+                    "resttage": "5",
+                    "antragsteller_in": "Y. Leckes",
+                    "befurwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                },
+                {
+                    "vom": "01.12",
+                    "bis": "05.12",
+                    "beantragte_tage": "5",
+                    "resttage": "0",
+                    "antragsteller_in": "Y. Leckes",
+                    "befurwortet": "Chef",
+                    "genehmigt": "Y. Leckes"
+                }
+            ],
+            "MISSING"
+        ],
+        [
+            "bereich_fakultaet",
+            "MISSING",
+            "Betabots"
+        ],
+        [
+            "gleitzeit",
+            "MISSING",
+            false
+        ],
+        [
+            "zusatzurlaub_f_schwerbeh",
+            "MISSING",
+            5
+        ],
+        [
+            "urlaubsantraege",
+            "MISSING",
+            [
+                {
+                    "von": "01.01",
+                    "bis": "11.01",
+                    "beantragte_tage": 10,
+                    "rest_tage": 20,
+                    "antragsteller": "Y. Leekes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leekes"
+                },
+                {
+                    "von": "01.04",
+                    "bis": "04.04",
+                    "beantragte_tage": 4,
+                    "rest_tage": 16,
+                    "antragsteller": "Y. Leekes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leekes"
+                },
+                {
+                    "von": "01.10",
+                    "bis": "11.10",
+                    "beantragte_tage": 11,
+                    "rest_tage": 5,
+                    "antragsteller": "Y. Leekes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leekes"
+                },
+                {
+                    "von": "01.12",
+                    "bis": "05.12",
+                    "beantragte_tage": 5,
+                    "rest_tage": 0,
+                    "antragsteller": "Y. Leekes",
+                    "befuerwortet": "Chef",
+                    "genehmigt": "Y. Leekes"
+                }
+            ]
+        ]
+    ]
+}

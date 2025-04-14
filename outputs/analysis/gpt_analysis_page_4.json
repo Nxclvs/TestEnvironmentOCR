@@ -1,0 +1,109 @@
+{
+    "accuracy": 0.5,
+    "errors": [
+        [
+            "bereich_fakultät",
+            "FM",
+            "MISSING"
+        ],
+        [
+            "zusatzurlaub_schwerbeh",
+            "nein",
+            "MISSING"
+        ],
+        [
+            "urlaubsanträge",
+            [
+                {
+                    "vom": "10.12.27",
+                    "bis": "20.12.2027",
+                    "beantragte_tage": 10,
+                    "resttage": 30,
+                    "antragsteller": "unleserlich",
+                    "befürwortet": "unleserlich",
+                    "genehmigt": "O. Mrose"
+                },
+                {
+                    "vom": "13.11.27",
+                    "bis": "23.11.2027",
+                    "beantragte_tage": 10,
+                    "resttage": 20,
+                    "antragsteller": "unleserlich",
+                    "befürwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                },
+                {
+                    "vom": "01.02.2027",
+                    "bis": "13.11.2027",
+                    "beantragte_tage": 13,
+                    "resttage": 7,
+                    "antragsteller": "unleserlich",
+                    "befürwortet": "unleserlich",
+                    "genehmigt": "X"
+                },
+                {
+                    "vom": "07.01.2027",
+                    "bis": "08.01.2027",
+                    "beantragte_tage": 7,
+                    "resttage": 0,
+                    "antragsteller": "unleserlich",
+                    "befürwortet": "unleserlich",
+                    "genehmigt": "unleserlich"
+                }
+            ],
+            "MISSING"
+        ],
+        [
+            "bereich_fakultaet",
+            "MISSING",
+            "FM"
+        ],
+        [
+            "zusatzurlaub_f_schwerbeh",
+            "MISSING",
+            "nein"
+        ],
+        [
+            "urlaubsantraege",
+            "MISSING",
+            [
+                {
+                    "von": "10.12.2027",
+                    "bis": "20.12.2027",
+                    "beantragte_tage": 10,
+                    "rest_tage": 30,
+                    "antragsteller": "Dewi",
+                    "befuerwortet": "Kern",
+                    "genehmigt": "Mayer"
+                },
+                {
+                    "von": "13.11.2027",
+                    "bis": "23.11.2027",
+                    "beantragte_tage": 10,
+                    "rest_tage": 20,
+                    "antragsteller": "Buse",
+                    "befuerwortet": "BL",
+                    "genehmigt": "Auer"
+                },
+                {
+                    "von": "01.02.2027",
+                    "bis": "13.11.2027",
+                    "beantragte_tage": 13,
+                    "rest_tage": 7,
+                    "antragsteller": "Mos",
+                    "befuerwortet": "End Pol",
+                    "genehmigt": "X"
+                },
+                {
+                    "von": "02.01.2027",
+                    "bis": "09.01.2027",
+                    "beantragte_tage": 7,
+                    "rest_tage": 0,
+                    "antragsteller": "Gso",
+                    "befuerwortet": "ull",
+                    "genehmigt": "Huber"
+                }
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "accuracy": 0.3,
+    "errors": [
+        [
+            "name",
+            "Zekiri",
+            "zekiri"
+        ],
+        [
+            "vorname",
+            "John",
+            "john"
+        ],
+        [
+            "personalnr",
+            "DA1011",
+            "011011"
+        ],
+        [
+            "bereich_fakultat",
+            "DTAG",
+            "MISSING"
+        ],
+        [
+            "zusatzurlaub_f_schwerbeh",
+            "",
+            "Nein"
+        ],
+        [
+            "urlaubsantraege",
+            [
+                {
+                    "vom": "01.01.2024",
+                    "bis": "10.01.2024",
+                    "beantragte_tage": 10,
+                    "resttage": 20,
+                    "antragsteller": "Zekiri",
+                    "befuerwortet": "Jadr",
+                    "genehmigt": "Geury"
+                },
+                {
+                    "vom": "01.07.2024",
+                    "bis": "10.07.2024",
+                    "beantragte_tage": 10,
+                    "resttage": 10,
+                    "antragsteller": "Zekiri",
+                    "befuerwortet": "Jadr",
+                    "genehmigt": "Geur"
+                },
+                {
+                    "vom": "16.10.2024",
+                    "bis": "20.10.2024",
+                    "beantragte_tage": 5,
+                    "resttage": 5,
+                    "antragsteller": "Zekiri",
+                    "befuerwortet": "Jadr",
+                    "genehmigt": "Geur"
+                },
+                {
+                    "vom": "01.01.2025",
+                    "bis": "10.01.25",
+                    "beantragte_tage": 10,
+                    "resttage": 10,
+                    "antragsteller": "Zeki.",
+                    "befuerwortet": "Jadr",
+                    "genehmigt": "Geur"
+                }
+            ],
+            [
+                {
+                    "von": "01.01.2024",
+                    "bis": "10.01.2024",
+                    "beantragte_tage": 10,
+                    "rest_tage": 20,
+                    "antragsteller": "zekiri",
+                    "befuerwortet": "ja",
+                    "genehmigt": "ja"
+                },
+                {
+                    "von": "01.02.2024",
+                    "bis": "10.02.2024",
+                    "beantragte_tage": 10,
+                    "rest_tage": 10,
+                    "antragsteller": "zekiri",
+                    "befuerwortet": "ja",
+                    "genehmigt": "nein"
+                },
+                {
+                    "von": "16.10.2024",
+                    "bis": "21.10.2024",
+                    "beantragte_tage": 5,
+                    "rest_tage": 5,
+                    "antragsteller": "zekiri",
+                    "befuerwortet": "ja",
+                    "genehmigt": "ja"
+                },
+                {
+                    "von": "01.01.2025",
+                    "bis": "10.01.2025",
+                    "beantragte_tage": 10,
+                    "rest_tage": 10,
+                    "antragsteller": "zekiri",
+                    "befuerwortet": "ja",
+                    "genehmigt": "ja"
+                }
+            ]
+        ],
+        [
+            "bereich_fakultaet",
+            "MISSING",
+            "dtag"
+        ]
+    ]
+}
