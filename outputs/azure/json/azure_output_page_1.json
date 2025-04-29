@@ -1,0 +1,83 @@
+{
+    "name": "Alles",
+    "vorname": "Lösch",
+    "personalnummer": "123AB",
+    "bereich_fakultaet": "Telekom :selected:",
+    "gleitzeit": true,
+    "urlaubsjahr": "2013",
+    "gesamturlaub": "30",
+    "urlaubsantraege": [
+        {
+            "von": "02.01.24",
+            "bis": "03.01.24",
+            "beantragte_tage": 2,
+            "rest_tage": 28,
+            "antragsteller": "Ich",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "01.02.24",
+            "bis": "30.02.24",
+            "beantragte_tage": 29,
+            "rest_tage": 5,
+            "antragsteller": "René",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "05.02.24",
+            "bis": "10.02.24",
+            "beantragte_tage": 5,
+            "rest_tage": 2,
+            "antragsteller": "Rene",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "12.12.24",
+            "bis": "12.12.24",
+            "beantragte_tage": 1,
+            "rest_tage": 0,
+            "antragsteller": "Rene",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "02.01.24",
+            "bis": "03.01.24",
+            "beantragte_tage": 2,
+            "rest_tage": 28,
+            "antragsteller": "Ich\tRené Zaring\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "01.02.24",
+            "bis": "30.02.24",
+            "beantragte_tage": 29,
+            "rest_tage": 5,
+            "antragsteller": "René\tRené Zring\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "05.02.24",
+            "bis": "10.02.24",
+            "beantragte_tage": 5,
+            "rest_tage": 2,
+            "antragsteller": "Rene\tRue Zwinger\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "12.12.24",
+            "bis": "12.12.24",
+            "beantragte_tage": 1,
+            "rest_tage": 0,
+            "antragsteller": "Rene\tReno Zuig\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        }
+    ]
+}

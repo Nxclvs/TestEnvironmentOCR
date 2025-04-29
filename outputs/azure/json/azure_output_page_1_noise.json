@@ -1,0 +1,65 @@
+{
+    "name": "Alles",
+    "vorname": "Lösch",
+    "personalnummer": "123AB",
+    "bereich_fakultaet": "Telekom :selected: Gleitzeit",
+    "gleitzeit": true,
+    "urlaubsjahr": "2013",
+    "gesamturlaub": "30",
+    "urlaubsantraege": [
+        {
+            "von": "02.01.24",
+            "bis": "03.01.24",
+            "beantragte_tage": 2,
+            "rest_tage": 28,
+            "antragsteller": "Ich",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "01.02.24",
+            "bis": "30.02.24",
+            "beantragte_tage": 29,
+            "rest_tage": 5,
+            "antragsteller": "René",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "05.02.24",
+            "bis": "10.02.24",
+            "beantragte_tage": 5,
+            "rest_tage": 2,
+            "antragsteller": "Rene",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "02.01.24",
+            "bis": "03.01.24",
+            "beantragte_tage": 2,
+            "rest_tage": 28,
+            "antragsteller": "Ich\tRené Zwing\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "01.02.24",
+            "bis": "30.02.24",
+            "beantragte_tage": 29,
+            "rest_tage": 5,
+            "antragsteller": "René\tRene Zring\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        },
+        {
+            "von": "05.02.24",
+            "bis": "10.02.24",
+            "beantragte_tage": 5,
+            "rest_tage": 2,
+            "antragsteller": "Rene\tRune Zwings\t:selected:",
+            "befürwortet": true,
+            "genehmigt": true
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Zekiri",
+    "vorname": "John",
+    "personalnummer": "011011",
+    "bereich_fakultaet": "DTAG",
+    "gleitzeit": true,
+    "urlaubsjahr": "2024",
+    "gesamturlaub": "30",
+    "urlaubsantraege": []
+}

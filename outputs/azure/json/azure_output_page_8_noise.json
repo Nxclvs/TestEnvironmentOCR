@@ -1,0 +1,10 @@
+{
+    "name": "Schneider",
+    "vorname": "Gerhard",
+    "personalnummer": "73",
+    "bereich_fakultaet": "Technik",
+    "gleitzeit": true,
+    "urlaubsjahr": "2024",
+    "gesamturlaub": "30",
+    "urlaubsantraege": []
+}

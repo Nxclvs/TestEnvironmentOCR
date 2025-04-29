@@ -1,0 +1,8 @@
+{
+    "accuracy": 0.3256,
+    "precision": 0.6667,
+    "recall": 0.3256,
+    "f1_score": 0.4375,
+    "levenshtein_total": 290,
+    "document": "output_page_7"
+}
