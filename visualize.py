@@ -20,18 +20,17 @@ for model in model_dirs:
 
     df = pd.read_excel(path, index_col=0)
 
-    if "Durchschnitt" not in df.index:
-        avg_row = df.mean(numeric_only=True)
-        avg_row.name = "Durchschnitt"
-        df = pd.concat([df, pd.DataFrame([avg_row])])
+    # Dokumenttyp trennen
+    df_clean = df[~df.index.str.contains("noise", case=False, na=False)]
+    df_rausch = df[df.index.str.contains("noise", case=False, na=False)]
+
+    avg_clean = df_clean.mean(numeric_only=True)
+    avg_rausch = df_rausch.mean(numeric_only=True)
 
     row = {"model": model}
-
     for metric in scaled_metrics + absolute_metrics:
-        if metric in df.columns:
-            row[f"avg_{metric}"] = df.loc["Durchschnitt", metric]
-            row[f"max_{metric}"] = df.drop("Durchschnitt", errors="ignore")[metric].max()
-            row[f"min_{metric}"] = df.drop("Durchschnitt", errors="ignore")[metric].min()
+        row[f"clean_{metric}"] = avg_clean.get(metric, None)
+        row[f"rausch_{metric}"] = avg_rausch.get(metric, None)
 
     summary.append(row)
 
@@ -42,51 +41,53 @@ summary_df = pd.DataFrame(summary)
 plot_output_path = os.path.join(base_analysis_path, "plots")
 os.makedirs(plot_output_path, exist_ok=True)
 
-# Skalenbasierte Metriken
+# Diagramme für skalierte Metriken
 for metric in scaled_metrics:
-    if f"avg_{metric}" not in summary_df.columns:
+    if f"clean_{metric}" not in summary_df.columns:
         continue
 
     plt.figure(figsize=(10, 6))
-    plt.title(f"{metric.capitalize()} Vergleich der Modelle")
+    plt.title(f"{metric.capitalize()} – Vergleich Original vs. Verrauscht")
+    x = summary_df["model"]
+    x_pos = range(len(x))
+    width = 0.35
 
-    plt.bar(summary_df["model"], summary_df[f"avg_{metric}"], label="Durchschnitt", alpha=0.7)
-    plt.scatter(summary_df["model"], summary_df[f"max_{metric}"], color='green', label='Bester Wert', zorder=5)
-    plt.scatter(summary_df["model"], summary_df[f"min_{metric}"], color='red', label='Schlechtester Wert', zorder=5)
+    plt.bar([p - width/2 for p in x_pos], summary_df[f"clean_{metric}"], width=width, label="Original", alpha=0.7)
+    plt.bar([p + width/2 for p in x_pos], summary_df[f"rausch_{metric}"], width=width, label="Verrauscht", alpha=0.7)
 
     plt.ylabel(metric)
     plt.ylim(0, 1.05)
-    plt.xticks(rotation=30, ha="right")
+    plt.xticks(x_pos, x, rotation=30, ha="right")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
 
-    plot_file = os.path.join(plot_output_path, f"{metric}_vergleich.png")
+    plot_file = os.path.join(plot_output_path, f"{metric}_vergleich_clean_vs_noise.png")
     plt.savefig(plot_file)
     print(f"✅ Gespeichert: {plot_file}")
-
     plt.show()
 
-# Absolute Metriken
+# Diagramme für absolute Metriken
 for metric in absolute_metrics:
-    if f"avg_{metric}" not in summary_df.columns:
+    if f"clean_{metric}" not in summary_df.columns:
         continue
 
     plt.figure(figsize=(10, 6))
-    plt.title(f"{metric.replace('_', ' ').capitalize()} Vergleich der Modelle")
+    plt.title(f"{metric.replace('_', ' ').capitalize()} – Vergleich Original vs. Verrauscht")
+    x = summary_df["model"]
+    x_pos = range(len(x))
+    width = 0.35
 
-    plt.bar(summary_df["model"], summary_df[f"avg_{metric}"], label="Durchschnitt", alpha=0.7)
-    plt.scatter(summary_df["model"], summary_df[f"max_{metric}"], color='red', label='Schlechtester Wert', zorder=5)
-    plt.scatter(summary_df["model"], summary_df[f"min_{metric}"], color='green', label='Bester Wert', zorder=5)
+    plt.bar([p - width/2 for p in x_pos], summary_df[f"clean_{metric}"], width=width, label="Original", alpha=0.7)
+    plt.bar([p + width/2 for p in x_pos], summary_df[f"rausch_{metric}"], width=width, label="Verrauscht", alpha=0.7)
 
     plt.ylabel("Fehleranzahl (Zeichen)")
-    plt.xticks(rotation=30, ha="right")
+    plt.xticks(x_pos, x, rotation=30, ha="right")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
 
-    plot_file = os.path.join(plot_output_path, f"{metric}_vergleich.png")
+    plot_file = os.path.join(plot_output_path, f"{metric}_vergleich_clean_vs_noise.png")
     plt.savefig(plot_file)
     print(f"✅ Gespeichert: {plot_file}")
-
     plt.show()

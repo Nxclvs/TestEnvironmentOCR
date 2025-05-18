@@ -3,7 +3,7 @@ import json
 from difflib import SequenceMatcher
 
 # Verzeichnisse
-gpt_output_dir = 'outputs/gpt/'
+gpt_output_dir = 'outputs/gpt/'                                                 
 textract_output_dir = 'outputs/textract/'
 solution_dir = 'solutions/'
 analysis_dir = 'outputs/analysis/'
