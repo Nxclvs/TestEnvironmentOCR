@@ -18,7 +18,7 @@ paths = [
 ]
 
 for path in paths:
-    run_azure(path)
+    # run_azure(path)
     run_azure_with_noise(path)
     modules.helpers.clear_temp_folder()
 

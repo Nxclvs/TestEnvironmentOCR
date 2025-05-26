@@ -13,8 +13,8 @@ from localconfig import config
 import modules.constants 
 import modules.helpers
 
-if os.path.exists(modules.constants.vision_ext_credentials):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = modules.constants.vision_ext_credentials
+# if os.path.exists(modules.constants.vision_ext_credentials):
+#     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = modules.constants.vision_ext_credentials
 
 PROJECT_ID = config.get("googlevision").get("project_id")
 LOCATION = config.get("googlevision").get("location")
